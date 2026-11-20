@@ -21,6 +21,7 @@ Pourquoi ici et pas sur le site : l'hébergement Free du club n'a pas le droit d
 - `robot.php` écrit `agenda.json`. Si une source ne répond pas, ses rendez-vous précédents encore à venir sont gardés.
   Si les trois échouent, le robot s'arrête en erreur et GitHub prévient par e-mail.
 - Le site lit `https://raw.githubusercontent.com/Milsdref31/asmb-agenda-ffk/main/agenda.json` (rien à installer sur Free).
+- `ics/<niveau>-<type>.ics` (« tous » pour tout) : agendas à s'abonner depuis un téléphone ou Google Agenda, un par choix de filtres du site.
 
 ## Format de `agenda.json`
 

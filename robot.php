@@ -43,6 +43,18 @@ $sortie = array(
 );
 file_put_contents($fichier, json_encode($sortie, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . "\n");
 
+/* Agendas à s'abonner (.ics), un par choix de filtres du site : ics/<niveau>-<type>.ics, « tous » pour tout.
+   Le téléphone ou Google Agenda les relisent tout seuls : les rendez-vous suivent la mise à jour mensuelle. */
+$NIVEAUX = array('tous', 'departemental', 'regional', 'national');
+$TYPES = array('tous', 'stage', 'stage-elite', 'competition', 'formation', 'grades');
+$NOM_NIV = array('tous' => '', 'departemental' => ' départemental', 'regional' => ' régional', 'national' => ' national');
+$NOM_TYP = array('tous' => 'Agenda FFK', 'stage' => 'Stages FFK', 'stage-elite' => 'Stages élite FFK', 'competition' => 'Compétitions FFK', 'formation' => 'Formations FFK', 'grades' => 'Grades FFK');
+@mkdir(__DIR__ . '/ics');
+foreach ($NIVEAUX as $nv) foreach ($TYPES as $ty) {
+    $liste = array_filter($evenements, function ($e) use ($nv, $ty) { return ($nv === 'tous' || $e['niveau'] === $nv) && ($ty === 'tous' || $e['type'] === $ty); });
+    file_put_contents(__DIR__ . "/ics/$nv-$ty.ics", ffk_ics($liste, $NOM_TYP[$ty] . $NOM_NIV[$nv] . ' (ASMB Karaté)'));
+}
+
 foreach ($sources as $n => $s) printf("%-14s %s  %3d rendez-vous  %d page(s)%s\n", $n, $s['ok'] ? 'OK ' : 'ÉCHEC', $s['nb'], $s['pages'],
     isset($s['garde_precedent']) ? '  (gardés de la fois précédente : ' . $s['garde_precedent'] . ')' : '');
 $types = array();

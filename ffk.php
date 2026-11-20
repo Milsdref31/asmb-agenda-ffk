@@ -336,6 +336,47 @@ function ffk_lieu($s) {
     return implode(' - ', $morceaux);
 }
 
+/* ---------- agenda .ics à s'abonner ----------
+   Journées entières, ou heures locales (« 8h30 – 11h30 ») sans fuseau : lues comme l'heure de Paris par les téléphones français. */
+function ffk_ics_texte($s) { return str_replace(array('\\', ';', ',', "\n"), array('\\\\', '\\;', '\\,', '\\n'), $s); }
+function ffk_ics_plier($ligne) {   // lignes de 75 octets au plus, sans couper un caractère
+    $out = ''; $l = 0; $n = strlen($ligne);
+    for ($i = 0; $i < $n; ) {
+        $c = ord($ligne[$i]); $t = $c < 0x80 ? 1 : ($c < 0xE0 ? 2 : ($c < 0xF0 ? 3 : 4));
+        if ($l + $t > 74) { $out .= "\r\n "; $l = 1; }
+        $out .= substr($ligne, $i, $t); $l += $t; $i += $t;
+    }
+    return $out . "\r\n";
+}
+function ffk_ics($evenements, $nom) {
+    $NOMS_T = array('stage' => 'Stage', 'stage-elite' => 'Stage élite', 'competition' => 'Compétition', 'formation' => 'Formation', 'grades' => 'Grades');
+    $NOMS_N = array('departemental' => 'Départemental (Territoire de Belfort)', 'regional' => 'Régional (Bourgogne-Franche-Comté)', 'national' => 'National');
+    $l = array('BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//ASMB Karate Belfort//Agenda FFK//FR', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
+               'X-WR-CALNAME:' . ffk_ics_texte($nom), 'X-WR-TIMEZONE:Europe/Paris', 'REFRESH-INTERVAL;VALUE=DURATION:P1D', 'X-PUBLISHED-TTL:P1D');
+    $stamp = gmdate('Ymd\THis\Z');
+    foreach ($evenements as $e) {
+        $l[] = 'BEGIN:VEVENT';
+        $l[] = 'UID:' . substr(md5($e['url'] . $e['debut'] . $e['titre']), 0, 20) . '@asmb-agenda-ffk';
+        $l[] = 'DTSTAMP:' . $stamp;
+        $d = str_replace('-', '', $e['debut']);
+        if ($e['debut'] === $e['fin'] && preg_match('/^(\d{1,2})h(\d{2})\s*–\s*(\d{1,2})h(\d{2})$/u', $e['heures'], $h)) {
+            $l[] = sprintf('DTSTART:%sT%02d%02d00', $d, $h[1], $h[2]);
+            $l[] = sprintf('DTEND:%sT%02d%02d00', $d, $h[3], $h[4]);
+        } else {
+            $l[] = 'DTSTART;VALUE=DATE:' . $d;
+            $l[] = 'DTEND;VALUE=DATE:' . date('Ymd', strtotime($e['fin'] . ' +1 day'));
+        }
+        $l[] = 'SUMMARY:' . ffk_ics_texte($e['titre']);
+        if ($e['lieu'] !== '') $l[] = 'LOCATION:' . ffk_ics_texte($e['lieu']);
+        $l[] = 'DESCRIPTION:' . ffk_ics_texte($NOMS_T[$e['type']] . ' · ' . $NOMS_N[$e['niveau']] . "\nFiche : " . $e['url']);
+        $l[] = 'URL:' . $e['url'];
+        $l[] = 'CATEGORIES:' . ffk_ics_texte($NOMS_T[$e['type']]);
+        $l[] = 'END:VEVENT';
+    }
+    $l[] = 'END:VCALENDAR';
+    return implode('', array_map('ffk_ics_plier', $l));
+}
+
 /* ---------- tout récupérer ---------- */
 
 /* Renvoie array('evenements' => [...], 'sources' => array(niveau => compte rendu)).
