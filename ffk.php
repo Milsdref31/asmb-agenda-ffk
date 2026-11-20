@@ -325,6 +325,17 @@ function ffk_casse($s, $lieu = false) {
     return implode('', $mots);
 }
 
+// « Dojo X - Ville (21) - Ville » : morceaux répétés retirés
+function ffk_lieu($s) {
+    $morceaux = array(); $vus = array();
+    foreach (preg_split('/\s+-\s+/u', $s) as $m) {
+        $cle = ffk_sans_accents(preg_replace('/\s*\(\d+\)\s*/', '', $m));
+        $deja = false; foreach ($vus as $v) if (strpos($v, $cle) !== false) $deja = true;
+        if (!$deja) { $morceaux[] = $m; $vus[] = $cle; }
+    }
+    return implode(' - ', $morceaux);
+}
+
 /* ---------- tout récupérer ---------- */
 
 /* Renvoie array('evenements' => [...], 'sources' => array(niveau => compte rendu)).
@@ -370,7 +381,7 @@ function ffk_tout($pages_max = 6) {
             $cle = $e['url'] !== '' ? $e['url'] : $e['titre'] . $e['debut'];
             if (isset($deja[$cle])) continue; $deja[$cle] = 1;
             $tout[] = array('niveau' => $niveau, 'type' => $type, 'titre' => ffk_casse($e['titre']), 'debut' => $e['debut'], 'fin' => $e['fin'],
-                            'heures' => $e['heures'], 'lieu' => ffk_casse($e['lieu'], true), 'url' => $e['url'] !== '' ? $e['url'] : $src['url']);
+                            'heures' => $e['heures'], 'lieu' => ffk_lieu(ffk_casse($e['lieu'], true)), 'url' => $e['url'] !== '' ? $e['url'] : $src['url']);
             $cr['gardes']++;
         }
         $sources[$niveau] = $cr;
