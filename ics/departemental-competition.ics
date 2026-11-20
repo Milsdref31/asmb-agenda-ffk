@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:80ada367f57e7d7fd439@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART:20270214T133000
 DTEND:20270214T183000
 SUMMARY:Inter Club Kumité PPB
@@ -20,10 +20,15 @@ DESCRIPTION:Compétition · Départemental (Territoire de Belfort)\nFiche
 URL:https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-
  pbm/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Inter Club Kumité PPB
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dd27b5d11c703a37be5c@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART:20270620T133000
 DTEND:20270620T183000
 SUMMARY:Inter Club Kumité PPB
@@ -34,5 +39,10 @@ DESCRIPTION:Compétition · Départemental (Territoire de Belfort)\nFiche
 URL:https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-
  pbm-2/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Inter Club Kumité PPB
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 END:VCALENDAR

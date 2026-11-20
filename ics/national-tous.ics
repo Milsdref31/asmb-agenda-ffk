@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:4aea010c0afd20fa0b8b@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261123
 SUMMARY:Karate World Cup
@@ -18,10 +18,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/karate-world-cup/
 URL:https://www.ffkarate.fr/calendrier/karate-world-cup/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Karate World Cup
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e96d9ce91c4445654fb9@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Développer la posture du coach en compétition
@@ -32,10 +37,15 @@ DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
 URL:https://www.ffkarate.fr/calendrier/formation-continue-developper-la-po
  sture-du-coach-en-competition-module-20/
 CATEGORIES:Formation
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Développer la posture du coach en compétition
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7ac95f44788cc93a9c10@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Stage national tous grades zone nord
@@ -45,10 +55,15 @@ DESCRIPTION:Stage · National\nFiche : https://www.ffkarate.fr/calendrier/
 URL:https://www.ffkarate.fr/calendrier/stage-national-tous-grades-zone-nor
  d/
 CATEGORIES:Stage
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Stage national tous grades zone nord
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:918878f7df7ca5dd89e5@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Passage de grade de 6ème dan +50 ans Zone Nord
@@ -58,10 +73,15 @@ DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
 URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
  -zone-nord-2/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade de 6ème dan +50 ans Zone Nord
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:93e80b305c18d84195b8@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:Championnat de France kata – MCJES
@@ -71,10 +91,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/championnat-de-france-kata-mcjes-in
  dividuels/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat de France kata – MCJES
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ba742130e64818365ac5@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261214
 SUMMARY:Karate 1 – Youth League
@@ -83,10 +108,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/karate-1-youth-league/
 URL:https://www.ffkarate.fr/calendrier/karate-1-youth-league/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Karate 1 – Youth League
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:11c12b2064fbf25ed772@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Passage de grade de 6ème dan +50 ans Zone Sud
@@ -96,10 +126,15 @@ DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
 URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
  -zone-sud-2/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade de 6ème dan +50 ans Zone Sud
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:700f88973eed49b0f93f@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Optimiser la pédagogie pour le public enfant
@@ -111,10 +146,15 @@ DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
 URL:https://www.ffkarate.fr/calendrier/formation-continue-optimiser-la-ped
  agogie-pour-le-public-enfant-module-22/
 CATEGORIES:Formation
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Optimiser la pédagogie pour le public enfant
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d16609fc733522d08c13@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Championnat de France combats – cadets
@@ -124,10 +164,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/championnat-de-france-combats-cadet
  s-individuels-2/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat de France combats – cadets
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:93411415d45ddabd1856@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Championnat de France combats – U21
@@ -137,10 +182,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/championnat-de-france-combats-espoi
  rs-ind-eq/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat de France combats – U21
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:08e462f7bc27dfb73631@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270111
 SUMMARY:Karate 1 – Serie A
@@ -149,10 +199,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/karate-1-serie-a-2/
 URL:https://www.ffkarate.fr/calendrier/karate-1-serie-a-2/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Karate 1 – Serie A
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:94038306772246cd178a@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270111
 SUMMARY:Championnat de France combats – juniors
@@ -162,10 +217,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/championnat-de-france-combats-junio
  rs-individuels/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat de France combats – juniors
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5f360d8d83725417c7cc@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270118
 SUMMARY:Championnat de France combats – seniors
@@ -175,10 +235,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/championnat-de-france-combats-senio
  rs-ind-et-equipes/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat de France combats – seniors
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2cd4274291f8f68f372b@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Coupe de France Aito Individuelle
@@ -187,10 +252,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/coupe-de-france-aito-zone-nord/
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-aito-zone-nord/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France Aito Individuelle
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3af13081d538f827c463@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Organiser la préparation physique du compétiteur
@@ -202,10 +272,15 @@ DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
 URL:https://www.ffkarate.fr/calendrier/formation-continue-organiser-la-pre
  paration-physique-du-competiteur-module-17/
 CATEGORIES:Formation
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Organiser la préparation physique du compétiteur
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f50319e034989eeb0203@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270125
 SUMMARY:Championnat de France combats – minimes
@@ -215,10 +290,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/championnat-de-france-combats-minim
  es/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat de France combats – minimes
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:94131a365b2df0f3a8c8@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270201
 SUMMARY:Karate 1 – Premier League
@@ -227,10 +307,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/karate-1-premier-league/
 URL:https://www.ffkarate.fr/calendrier/karate-1-premier-league/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Karate 1 – Premier League
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:97efbc355fa4ac265403@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270201
 SUMMARY:Coupe de France kyokushinkaï combats/kata
@@ -240,10 +325,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-kyokushinkai-combat
  -kata/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France kyokushinkaï combats/kata
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:833f7d38ce4569f0649c@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270208
 SUMMARY:Championnats d’Europe cadets\, juniors\, U21
@@ -253,10 +343,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/championnats-deurope-cadets-juniors
  -u21-4/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnats d’Europe cadets\, juniors\, U21
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f63d3dcb92ff2f6aba4c@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Coupe de France wado ryu
@@ -266,10 +361,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-wado-ryu-individuel
  s/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France wado ryu
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:23f2e469ddc04e06d432@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Encadrer un public senior dans son club
@@ -279,10 +379,15 @@ DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
 URL:https://www.ffkarate.fr/calendrier/formation-continue-encadrer-un-publ
  ic-senior-dans-son-club-module-15/
 CATEGORIES:Formation
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Encadrer un public senior dans son club
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0776d72177c7267c7c1b@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Passage de grade de 7ème dan
@@ -291,10 +396,15 @@ DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
  /passage-de-grade-de-7eme-dan/
 URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-7eme-dan/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade de 7ème dan
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9439bf9460d4bf23069c@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:Coupe de France Shito Ryu Shukokai Kata
@@ -305,10 +415,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-shito-ryu-shukokai-
  kata-2/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France Shito Ryu Shukokai Kata
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c6ed55a8658a4f3e6e85@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270301
 SUMMARY:Karate 1 – Youth League
@@ -317,10 +432,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/karate-1-youth-league-2/
 URL:https://www.ffkarate.fr/calendrier/karate-1-youth-league-2/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Karate 1 – Youth League
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a94315a13f651f6916c3@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270301
 SUMMARY:Open de France Combat MCJS Ind
@@ -329,10 +449,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/open-de-france-combat-mcjs-ind/
 URL:https://www.ffkarate.fr/calendrier/open-de-france-combat-mcjs-ind/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Open de France Combat MCJS Ind
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:898a12256fbd88a24ed2@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:Coupe de France combinée – combats/kata
@@ -342,10 +467,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-combine-combat-kata
  -ffk/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France combinée – combats/kata
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:867d41c80bada23bbe82@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270315
 SUMMARY:Karate 1 – Premier League
@@ -354,10 +484,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/karate-1-premier-league-2/
 URL:https://www.ffkarate.fr/calendrier/karate-1-premier-league-2/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Karate 1 – Premier League
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bc161b5f7c09e33386b2@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270315
 SUMMARY:Championnat de France universitaire
@@ -367,10 +502,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/championnat-de-france-universitaire
  -2/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat de France universitaire
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1f5ba13d2db9666b019e@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270315
 SUMMARY:Coupe de France shindokaï
@@ -379,10 +519,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/coupe-de-france-shindokai-12/
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-shindokai-12/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France shindokaï
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bb9d57033846773f0e09@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270322
 SUMMARY:Coupe de France shorinji kempo
@@ -391,10 +536,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/coupe-de-france-shorinji-kempo-14/
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-shorinji-kempo-14/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France shorinji kempo
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4950b01fc779f77dc8a0@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270329
 SUMMARY:Championnats d’Europe seniors
@@ -403,10 +553,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/championnats-deurope-seniors-6/
 URL:https://www.ffkarate.fr/calendrier/championnats-deurope-seniors-6/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnats d’Europe seniors
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fb0fe14e0c62f7ff8d9a@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270403
 SUMMARY:Coupe de France UNSS Karaté
@@ -415,10 +570,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/coupe-de-france-unss-karate/
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-unss-karate/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France UNSS Karaté
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a04237795f13df6a7e4e@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:Coupe de France kobudo traditionnel
@@ -428,10 +588,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-kobudo-traditionnel
  -7/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France kobudo traditionnel
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1cf01e64aa50a412d558@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270412
 SUMMARY:Coupe de France kata – MCJES
@@ -441,10 +606,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-kata-mcjes-individu
  els/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France kata – MCJES
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ea3b469fd2a2af43fd48@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270419
 SUMMARY:Karate 1 – Serie A
@@ -453,10 +623,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/karate-1-serie-a-3/
 URL:https://www.ffkarate.fr/calendrier/karate-1-serie-a-3/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Karate 1 – Serie A
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5084864d704052dfa004@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270419
 SUMMARY:Accueillir un pratiquant en situation de handicap
@@ -467,10 +642,15 @@ DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
 URL:https://www.ffkarate.fr/calendrier/formation-continue-accueillir-un-pr
  atiquant-en-situation-de-handicap/
 CATEGORIES:Formation
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Accueillir un pratiquant en situation de handicap
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:02057c68a8937bdd2878@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270419
 SUMMARY:Coupe de France combats – cadets/U21
@@ -480,10 +660,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-combat-cadets-espoi
  rs/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France combats – cadets/U21
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2eb13603f7a5a15e89f6@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:Coupe de France combats – minimes
@@ -492,10 +677,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/coupe-de-france-combat-minimes/
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-combat-minimes/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France combats – minimes
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6234bfcfc4b333821545@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:Coupe de France combats – juniors
@@ -504,10 +694,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/coupe-de-france-combat-juniors/
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-combat-juniors/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France combats – juniors
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1db4a8c5d5ceb6e121b7@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270503
 SUMMARY:Coupe de France combats – seniors
@@ -516,10 +711,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/coupe-de-france-combat-seniors/
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-combat-seniors/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France combats – seniors
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:86c62c485d07a64dc7b4@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270510
 SUMMARY:Karate 1 – Premier League
@@ -528,10 +728,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/karate-1-premier-league-3/
 URL:https://www.ffkarate.fr/calendrier/karate-1-premier-league-3/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Karate 1 – Premier League
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cd7d00e05ccd2d3399a3@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270520
 DTEND;VALUE=DATE:20270524
 SUMMARY:Karate 1 – Youth League
@@ -540,10 +745,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/karate-1-youth-league-3/
 URL:https://www.ffkarate.fr/calendrier/karate-1-youth-league-3/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Karate 1 – Youth League
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0861d2433f34c14f856f@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:Championnat de France des ligues régionales
@@ -553,10 +763,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/championnat-de-france-des-ligues-re
  gionales-2/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat de France des ligues régionales
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cbbe4723178eef11c0b3@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270524
 SUMMARY:Championnat de France – vétérans
@@ -566,10 +781,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/championnat-de-france-combats-veter
  ans/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat de France – vétérans
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b24ef6842943bcdfe0b5@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:Coupe de France Shorinji kempo Seïgido Ryu
@@ -578,10 +798,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-shorinji-kempo-seig
  ido-ryu-13/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France Shorinji kempo Seïgido Ryu
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:49e74d5c7a73ecb40ad1@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:Coupe de France Uechi-Ryu
@@ -590,10 +815,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/coupe-de-france-uechi-ryu-15/
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-uechi-ryu-15/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France Uechi-Ryu
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a5f3452b3d49ec4a2cc6@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270531
 SUMMARY:Accueillir un pratiquant en situation de handicap
@@ -604,10 +834,15 @@ DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
 URL:https://www.ffkarate.fr/calendrier/formation-continue-accueillir-un-pr
  atiquant-en-situation-de-handicap-2/
 CATEGORIES:Formation
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Accueillir un pratiquant en situation de handicap
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:46dc426af4bd2bad714e@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:Coupe de France combats zone sud – benjamins
@@ -617,10 +852,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-combat-kata-zone-su
  d-benjamins/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France combats zone sud – benjamins
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d35dfec3c05d53e6283c@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:Coupe de France kata zone sud – benjamins
@@ -630,10 +870,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-kata-sone-sud-benja
  mins/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France kata zone sud – benjamins
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4e192aec62eecad4c62d@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 SUMMARY:Coupe de France combats zone sud – minimes
@@ -643,10 +888,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-combat-kata-zone-su
  d-minimes-ind/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France combats zone sud – minimes
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:881a58215ef5bf9161ea@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 SUMMARY:Coupe de France kata zone sud – minimes
@@ -656,10 +906,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-kata-zone-sud-minim
  es/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France kata zone sud – minimes
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9f30041c7feb11a4bf3e@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270604
 DTEND;VALUE=DATE:20270607
 SUMMARY:Karate 1 – Premier League
@@ -668,10 +923,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/karate-1-premier-league-4/
 URL:https://www.ffkarate.fr/calendrier/karate-1-premier-league-4/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Karate 1 – Premier League
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:545d4e578bd949fd0f32@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Coupe de France combats zone nord – benjamins
@@ -681,10 +941,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-combat-kata-zone-no
  rd-benjamins-ind/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France combats zone nord – benjamins
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:207d03efcef77d621852@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:Coupe de France kata zone nord – benjamins
@@ -694,10 +959,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-kata-zone-nord-benj
  amins/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France kata zone nord – benjamins
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:11e9cb6b5753d3871828@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Coupe de France combats zone nord – minimes
@@ -707,10 +977,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-combat-kata-zone-no
  rd-minimes-ind/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France combats zone nord – minimes
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:953b8b72689868dbca3d@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Coupe de France kata zone nord – minimes
@@ -720,10 +995,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-kata-zone-nord-mini
  mes/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France kata zone nord – minimes
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1f6a94427af909845476@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270611
 DTEND;VALUE=DATE:20270612
 SUMMARY:Passage de grade de 6ème dan -50 ans Zone Sud
@@ -732,10 +1012,15 @@ DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
 URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
  -zone-sud/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade de 6ème dan -50 ans Zone Sud
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1443be8720ccdc7df130@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270614
 SUMMARY:Coupe de France Aito Equipes
@@ -744,10 +1029,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/coupe-de-france-aito-zone-sud/
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-aito-zone-sud/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France Aito Equipes
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d630fedee5f8d979d190@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270616
 DTEND;VALUE=DATE:20270628
 SUMMARY:Jeux Européens
@@ -756,10 +1046,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/jeux-europeens-2/
 URL:https://www.ffkarate.fr/calendrier/jeux-europeens-2/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Jeux Européens
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0650818ac0355a3d9cc1@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270621
 SUMMARY:Coupe de France des Corporations
@@ -769,10 +1064,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-des-corporations-co
  mbats-par-equipes/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France des Corporations
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ba68d2fdb6d77f7c8639@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270620
 SUMMARY:Coupe de France des corporations combats – individuels
@@ -782,10 +1082,16 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-des-corporations-co
  mbats-individuels/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France des corporations combats – individu
+ els
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:350b77bfb1351828b4c1@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270621
 SUMMARY:Coupe de France des corporations kata par équipes
@@ -795,10 +1101,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-des-corporations-ka
  ta-par-equipes/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France des corporations kata par équipes
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c00ad0529fb3565ae786@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270621
 SUMMARY:Coupe de France des corporations kata – individuels
@@ -808,10 +1119,15 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
 URL:https://www.ffkarate.fr/calendrier/coupe-de-france-des-corporations-ka
  ta-individuels/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe de France des corporations kata – individuels
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:316f28a105d7cd122af8@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270620
 SUMMARY:Passage de grade de 6ème dan -50 ans Zone Nord
@@ -820,10 +1136,15 @@ DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
 URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
  -zone-nord/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade de 6ème dan -50 ans Zone Nord
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b7d9444c7f1c74baec41@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270705
 SUMMARY:Karate 1 – Youth League
@@ -832,5 +1153,10 @@ DESCRIPTION:Compétition · National\nFiche : https://www.ffkarate.fr/cale
  ndrier/karate-1-youth-league-4/
 URL:https://www.ffkarate.fr/calendrier/karate-1-youth-league-4/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Karate 1 – Youth League
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 END:VCALENDAR

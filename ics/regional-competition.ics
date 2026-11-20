@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:bcc4855edeeccd7d2a9d@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Coupe combat PB bourg franche comte
@@ -20,10 +20,15 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/coupe-combat-pb-
  bourg-franche-comte-2/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe combat PB bourg franche comte
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c5bc80a056abcb53a890@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Championnat combat BFC MCJS
@@ -34,10 +39,15 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-comb
  at-bfc-mcjs/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat combat BFC MCJS
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:abfb81cae5f8a7943666@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Championnat combat BFC equipe
@@ -48,10 +58,15 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-comb
  at-bfc-equipe/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat combat BFC equipe
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ea31df989f0c16561e6e@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Championnat combat BFC veterans
@@ -62,10 +77,15 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-comb
  at-bfc-veterans/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat combat BFC veterans
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a4677a35378d2f5daab3@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:OPEN Interrégional Contact
@@ -76,10 +96,15 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/open-interregion
  al-contact/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : OPEN Interrégional Contact
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e70ff450ca86251cd674@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:Séminaire LR / OPEN PB
@@ -90,5 +115,10 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/seminaire-lr-ope
  n-pb/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Séminaire LR / OPEN PB
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 END:VCALENDAR

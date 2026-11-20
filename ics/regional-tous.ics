@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:0ea2793efecc4ad40450@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART:20261125T190000
 DTEND:20261125T210000
 SUMMARY:Stage Self Defense Féminin
@@ -20,10 +20,15 @@ DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-self-defen
  se-feminin/
 CATEGORIES:Stage
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Stage Self Defense Féminin
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:96607dcac0054ea92cff@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART:20261125T190000
 DTEND:20261125T210000
 SUMMARY:Stage de Self Defense Féminin (AKDC)
@@ -34,10 +39,15 @@ DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-de-self-de
  fense-feminin-akdc/
 CATEGORIES:Stage
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Stage de Self Defense Féminin (AKDC)
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bcc4855edeeccd7d2a9d@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Coupe combat PB bourg franche comte
@@ -48,10 +58,15 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/coupe-combat-pb-
  bourg-franche-comte-2/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Coupe combat PB bourg franche comte
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c5bc80a056abcb53a890@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Championnat combat BFC MCJS
@@ -62,10 +77,15 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-comb
  at-bfc-mcjs/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat combat BFC MCJS
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:abfb81cae5f8a7943666@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Championnat combat BFC equipe
@@ -76,10 +96,15 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-comb
  at-bfc-equipe/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat combat BFC equipe
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ea31df989f0c16561e6e@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Championnat combat BFC veterans
@@ -90,10 +115,15 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-comb
  at-bfc-veterans/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Championnat combat BFC veterans
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:732dfa9f76699f4ae6cd@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Stage de Noël (avec AKDC)
@@ -103,10 +133,15 @@ DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-de-noel-av
  ec-akdc/
 CATEGORIES:Stage
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Stage de Noël (avec AKDC)
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b2fb686ed24523bea3ae@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Passage de grade 5 DAN en Franche-Comté
@@ -116,10 +151,15 @@ DESCRIPTION:Grades · Régional (Bourgogne-Franche-Comté)\nFiche : https:
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/passage-de-grade
  -5-dan-en-franche-comte/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade 5 DAN en Franche-Comté
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aad2fbcfa8860d99dde4@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART:20270117T100000
 DTEND:20270117T123000
 SUMMARY:Stage Régional Karaté Do
@@ -129,10 +169,15 @@ DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-regional-k
  arate-do/
 CATEGORIES:Stage
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Stage Régional Karaté Do
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a4677a35378d2f5daab3@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:OPEN Interrégional Contact
@@ -143,10 +188,15 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/open-interregion
  al-contact/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : OPEN Interrégional Contact
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:63e04030c76cbafc6e1a@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Stage Kumité / Kata
@@ -156,10 +206,15 @@ DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite-kat
  a-2/
 CATEGORIES:Stage
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Stage Kumité / Kata
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0c390f017ef2f0963edc@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART:20270206T090000
 DTEND:20270206T120000
 SUMMARY:Stage Karaté Santé
@@ -169,10 +224,15 @@ DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-karate-san
  te-2/
 CATEGORIES:Stage
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Stage Karaté Santé
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d1471be431f56a8fa601@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270208
 SUMMARY:Stage Kumité / Kata
@@ -181,10 +241,15 @@ DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
  /sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite/
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite/
 CATEGORIES:Stage
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Stage Kumité / Kata
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:16b598ac2a71746bd979@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270301
 SUMMARY:Stage Kumité / Kata (date à confirmer)
@@ -195,10 +260,15 @@ DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite-kat
  a-date-a-confirmer/
 CATEGORIES:Stage
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Stage Kumité / Kata (date à confirmer)
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ff9890ce7a95f5f0174e@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270510
 SUMMARY:Stage Kata / Kumité en Franche-Comté
@@ -209,10 +279,15 @@ DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kata-kumit
  e-en-franche-comte/
 CATEGORIES:Stage
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Stage Kata / Kumité en Franche-Comté
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6664edfbc4b5ee06bcd0@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART:20270619T080000
 DTEND:20270619T140000
 SUMMARY:Passage de Grade 5 DAN
@@ -222,10 +297,15 @@ DESCRIPTION:Grades · Régional (Bourgogne-Franche-Comté)\nFiche : https:
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/passage-de-grade
  -5-dan-2/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de Grade 5 DAN
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e70ff450ca86251cd674@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:Séminaire LR / OPEN PB
@@ -236,5 +316,10 @@ DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche :
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/seminaire-lr-ope
  n-pb/
 CATEGORIES:Compétition
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Séminaire LR / OPEN PB
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 END:VCALENDAR

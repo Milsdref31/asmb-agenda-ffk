@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:918878f7df7ca5dd89e5@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Passage de grade de 6ème dan +50 ans Zone Nord
@@ -19,10 +19,15 @@ DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
 URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
  -zone-nord-2/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade de 6ème dan +50 ans Zone Nord
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:11c12b2064fbf25ed772@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Passage de grade de 6ème dan +50 ans Zone Sud
@@ -32,10 +37,15 @@ DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
 URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
  -zone-sud-2/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade de 6ème dan +50 ans Zone Sud
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0776d72177c7267c7c1b@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Passage de grade de 7ème dan
@@ -44,10 +54,15 @@ DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
  /passage-de-grade-de-7eme-dan/
 URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-7eme-dan/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade de 7ème dan
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1f6a94427af909845476@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270611
 DTEND;VALUE=DATE:20270612
 SUMMARY:Passage de grade de 6ème dan -50 ans Zone Sud
@@ -56,10 +71,15 @@ DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
 URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
  -zone-sud/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade de 6ème dan -50 ans Zone Sud
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:316f28a105d7cd122af8@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270620
 SUMMARY:Passage de grade de 6ème dan -50 ans Zone Nord
@@ -68,5 +88,10 @@ DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
 URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
  -zone-nord/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade de 6ème dan -50 ans Zone Nord
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 END:VCALENDAR

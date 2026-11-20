@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:b2fb686ed24523bea3ae@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Passage de grade 5 DAN en Franche-Comté
@@ -19,10 +19,15 @@ DESCRIPTION:Grades · Régional (Bourgogne-Franche-Comté)\nFiche : https:
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/passage-de-grade
  -5-dan-en-franche-comte/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grade 5 DAN en Franche-Comté
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6664edfbc4b5ee06bcd0@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART:20270619T080000
 DTEND:20270619T140000
 SUMMARY:Passage de Grade 5 DAN
@@ -32,5 +37,10 @@ DESCRIPTION:Grades · Régional (Bourgogne-Franche-Comté)\nFiche : https:
 URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/passage-de-grade
  -5-dan-2/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de Grade 5 DAN
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 END:VCALENDAR

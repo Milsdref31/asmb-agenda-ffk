@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:9168ada02b714315b2a5@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART:20270307T083000
 DTEND:20270307T113000
 SUMMARY:Passage de Grades 2ème à 4ème dan
@@ -19,10 +19,15 @@ DESCRIPTION:Grades · Départemental (Territoire de Belfort)\nFiche : http
 URL:https://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-
  3/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de Grades 2ème à 4ème dan
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ab396ab846205b9fee84@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART:20270606T081100
 DTEND:20270606T113000
 SUMMARY:Passage de grades 2éme à 4ème dan
@@ -33,5 +38,10 @@ DESCRIPTION:Grades · Départemental (Territoire de Belfort)\nFiche : http
 URL:https://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-
  2eme-a-4eme-dan/
 CATEGORIES:Grades
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Passage de grades 2éme à 4ème dan
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 END:VCALENDAR

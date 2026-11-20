@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:005e2424a6254fc37aed@asmb-agenda-ffk
-DTSTAMP:20261120T092816Z
+DTSTAMP:20261120T093129Z
 DTSTART:20261213T083000
 DTEND:20261213T113000
 SUMMARY:Formation Arbitrage et entrainement élite
@@ -20,5 +20,10 @@ DESCRIPTION:Formation · Départemental (Territoire de Belfort)\nFiche : h
 URL:https://sites.ffkarate.fr/territoiredebelfort/event/formation-arbitrag
  e-et-entrainement-elite/
 CATEGORIES:Formation
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Demain : Formation Arbitrage et entrainement élite
+TRIGGER:-P1D
+END:VALARM
 END:VEVENT
 END:VCALENDAR
