@@ -151,9 +151,9 @@ function ffk_autre_discipline($titre, $etiquettes) {
         if (in_array($e, array('karate', 'france karate', 'para karate', 'karate do', 'kata', 'kumite'))) $karate = true;
         elseif (preg_match('/wushu|vietnam|karate contact|karate mix|yoseikan|krav|full contact|sud-est|tai ?jitsu|kenpo|kung|sanda|qi gong|tai chi|body karate|karate jutsu|disciplines associees/', $e)) $autre = true;
     }
-    if ($karate) return false;
-    if ($autre) return true;
-    return (bool)preg_match('/wushu|lei tai|sanda|taolu|vietnam|\bamv\b|yoseikan|krav|full contact|karate contact|karate mix|kick|tai ?jitsu|nihon|kenpo|kung ?fu|qi ?gong|tai ?chi|disciplines associees|body karate|karate jutsu|sud-est/', ffk_sans_accents($titre));
+    // le titre qui nomme une autre discipline l'emporte (« Stage national de Nihon Tai Jitsu » classé aussi Karaté)
+    if (preg_match('/wushu|lei tai|sanda|taolu|vietnam|\bamv\b|yoseikan|krav|full contact|karate contact|karate mix|kick|tai ?jitsu|nihon|kenpo|kung ?fu|qi ?gong|tai ?chi|disciplines associees|body karate|karate jutsu|sud-est/', ffk_sans_accents($titre))) return true;
+    return $autre && !$karate;
 }
 
 /* ---------- lecture des pages HTML (sites des comités et ligues) ---------- */
