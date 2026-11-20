@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "majLe": "2026-11-20T09:11:01Z",
+    "majLe": "2026-11-20T09:13:22Z",
     "sources": {
         "departemental": {
             "ok": true,
@@ -10,13 +10,13 @@
         },
         "regional": {
             "ok": true,
-            "nb": 18,
+            "nb": 17,
             "pages": 3,
             "erreur": ""
         },
         "national": {
             "ok": true,
-            "nb": 108,
+            "nb": 66,
             "pages": 0,
             "erreur": ""
         }
@@ -29,36 +29,6 @@
     "evenements": [
         {
             "niveau": "national",
-            "type": "formation",
-            "titre": "VAE 1 – Demande de faisabilité",
-            "debut": "2026-09-01",
-            "fin": "2027-08-31",
-            "heures": "",
-            "lieu": "Fédération Française de Karaté - Montrouge (92)",
-            "url": "https://www.ffkarate.fr/calendrier/vae-1-demande-de-faisabilite/"
-        },
-        {
-            "niveau": "national",
-            "type": "formation",
-            "titre": "VAE 2 – Confirmation de demande de faisabilité",
-            "debut": "2026-09-01",
-            "fin": "2027-08-31",
-            "heures": "",
-            "lieu": "Fédération Française de Karaté - Montrouge (92)",
-            "url": "https://www.ffkarate.fr/calendrier/vae-2-confirmation-de-demande-de-faisabilite/"
-        },
-        {
-            "niveau": "national",
-            "type": "formation",
-            "titre": "VAE – Entretien n°2",
-            "debut": "2026-11-09",
-            "fin": "2026-12-09",
-            "heures": "",
-            "lieu": "Fédération Française de Karaté - Montrouge (92)",
-            "url": "https://www.ffkarate.fr/calendrier/vae-entretien-n2/"
-        },
-        {
-            "niveau": "national",
             "type": "competition",
             "titre": "Karate World Cup",
             "debut": "2026-11-20",
@@ -66,16 +36,6 @@
             "heures": "",
             "lieu": "Hangzhou (Chine)",
             "url": "https://www.ffkarate.fr/calendrier/karate-world-cup/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Coupe de France Karate lei tai",
-            "debut": "2026-11-21",
-            "fin": "2026-11-21",
-            "heures": "",
-            "lieu": "Gymnase Lucien Martinel - Fontainebleau (77)",
-            "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-karate-contact-lei-tai/"
         },
         {
             "niveau": "national",
@@ -88,18 +48,8 @@
             "url": "https://www.ffkarate.fr/calendrier/formation-continue-developper-la-posture-du-coach-en-competition-module-20/"
         },
         {
-            "niveau": "regional",
-            "type": "formation",
-            "titre": "STAGE D’ARBITRAGE KARATE CONTACT ET KARATE FULL CONTACT",
-            "debut": "2026-11-21",
-            "fin": "2026-11-21",
-            "heures": "",
-            "lieu": "Forum des Sports Rue Édouard Joly 21200 Beaune",
-            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-darbitrage-karate-contact-et-karate-full-contact/"
-        },
-        {
             "niveau": "national",
-            "type": "grades",
+            "type": "stage",
             "titre": "Stage national tous grades zone nord",
             "debut": "2026-11-22",
             "fin": "2026-11-22",
@@ -110,12 +60,22 @@
         {
             "niveau": "regional",
             "type": "stage",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "titre": "Stage Self Defense Féminin",
             "debut": "2026-11-25",
             "fin": "2026-11-25",
             "heures": "19h00 – 21h00",
-            "lieu": "",
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-self-defense-feminin/"
+        },
+        {
+            "niveau": "regional",
+            "type": "stage",
+            "titre": "Stage de Self Defense Féminin (AKDC)",
+            "debut": "2026-11-25",
+            "fin": "2026-11-25",
+            "heures": "19h00 – 21h00",
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-de-self-defense-feminin-akdc/"
         },
         {
             "niveau": "national",
@@ -130,22 +90,42 @@
         {
             "niveau": "regional",
             "type": "competition",
-            "titre": "DOJO ALAIN LE HETET - CHEVIGNY-SAINT-SAUVEUR (21) - CHEVIGNY-SAINT-SAUVEUR",
+            "titre": "Coupe combat PB bourg franche comte",
+            "debut": "2026-11-28",
+            "fin": "2026-11-28",
+            "heures": "",
+            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21) - Chevigny-Saint-Sauveur",
+            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/coupe-combat-pb-bourg-franche-comte-2/"
+        },
+        {
+            "niveau": "regional",
+            "type": "competition",
+            "titre": "Championnat combat BFC MCJS",
             "debut": "2026-11-29",
             "fin": "2026-11-29",
             "heures": "",
-            "lieu": "",
+            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21) - Chevigny-Saint-Sauveur",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-combat-bfc-mcjs/"
         },
         {
             "niveau": "regional",
             "type": "competition",
-            "titre": "DOJO ALAIN LE HETET - CHEVIGNY-SAINT-SAUVEUR (21) - CHEVIGNY-SAINT-SAUVEUR",
+            "titre": "Championnat combat BFC equipe",
             "debut": "2026-11-29",
             "fin": "2026-11-29",
             "heures": "",
-            "lieu": "",
+            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21) - Chevigny-Saint-Sauveur",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-combat-bfc-equipe/"
+        },
+        {
+            "niveau": "regional",
+            "type": "competition",
+            "titre": "Championnat combat BFC veterans",
+            "debut": "2026-11-29",
+            "fin": "2026-11-29",
+            "heures": "",
+            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21) - Chevigny-Saint-Sauveur",
+            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-combat-bfc-veterans/"
         },
         {
             "niveau": "national",
@@ -168,43 +148,13 @@
             "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-kata-mcjes-individuels/"
         },
         {
-            "niveau": "national",
-            "type": "grades",
-            "titre": "Passage de grades Disciplines Associées du 1er au 5ème dan Zone Nord",
-            "debut": "2026-12-05",
-            "fin": "2026-12-05",
-            "heures": "",
-            "lieu": "Gymnase de la Vanne - Montrouge (92)",
-            "url": "https://www.ffkarate.fr/calendrier/passage-de-grades-disciplines-associees-du-1er-au-5eme-dan-zone-nord/"
-        },
-        {
-            "niveau": "national",
-            "type": "grades",
-            "titre": "Stage national tous grades zone sud de Tai Jitsu",
-            "debut": "2026-12-05",
-            "fin": "2026-12-05",
-            "heures": "",
-            "lieu": "Centre national d'entrainement (CNE) - Castelnau-le-Lez (34)",
-            "url": "https://www.ffkarate.fr/calendrier/stage-national-tous-grades-zone-sud-de-tai-jitsu/"
-        },
-        {
-            "niveau": "regional",
-            "type": "stage",
-            "titre": "STAGE KARATÉ CONTACT (avec Jérôme CLAUDIN)",
-            "debut": "2026-12-05",
-            "fin": "2026-12-05",
-            "heures": "10h30 – 12h30",
-            "lieu": "Rue Edouard Joly 21200 BEAUNE",
-            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-karate-contact-avec-jerome-claudin/"
-        },
-        {
             "niveau": "departemental",
             "type": "stage-elite",
-            "titre": "Dojo Serge Merlet rue de Londres Belfort",
+            "titre": "Entrainement élite",
             "debut": "2026-12-06",
             "fin": "2026-12-06",
             "heures": "8h30 – 11h30",
-            "lieu": "",
+            "lieu": "Dojo Serge Merlet rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-14/"
         },
         {
@@ -238,16 +188,6 @@
             "url": "https://www.ffkarate.fr/calendrier/formation-continue-optimiser-la-pedagogie-pour-le-public-enfant-module-22/"
         },
         {
-            "niveau": "national",
-            "type": "grades",
-            "titre": "Passage de grade Disciplines Associées du 1er au 5ème dan Zone Sud",
-            "debut": "2026-12-12",
-            "fin": "2026-12-12",
-            "heures": "",
-            "lieu": "Centre National d'Entrainement - CASTELNAU-LE-LEZ (34)",
-            "url": "https://www.ffkarate.fr/calendrier/passage-de-grade-disciplines-associees-du-1er-au-5eme-dan-zone-sud/"
-        },
-        {
             "niveau": "departemental",
             "type": "formation",
             "titre": "Formation Arbitrage et entrainement élite",
@@ -256,16 +196,6 @@
             "heures": "8h30 – 11h30",
             "lieu": "10 rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/formation-arbitrage-et-entrainement-elite/"
-        },
-        {
-            "niveau": "national",
-            "type": "formation",
-            "titre": "TFP karaté, wushu et disciplines associées – sans DIF",
-            "debut": "2026-12-14",
-            "fin": "2026-12-16",
-            "heures": "",
-            "lieu": "Fédération Française de Karaté - Montrouge (92)",
-            "url": "https://www.ffkarate.fr/calendrier/tfp-karate-wushu-et-disciplines-associees-sans-dif-3/"
         },
         {
             "niveau": "national",
@@ -280,11 +210,11 @@
         {
             "niveau": "regional",
             "type": "stage",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "titre": "Stage de Noël (avec AKDC)",
             "debut": "2026-12-19",
             "fin": "2026-12-19",
             "heures": "",
-            "lieu": "",
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-de-noel-avec-akdc/"
         },
         {
@@ -318,34 +248,14 @@
             "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-combats-juniors-individuels/"
         },
         {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Coupe zone sud karaté light contact – PBMCV",
-            "debut": "2027-01-09",
-            "fin": "2027-01-09",
-            "heures": "",
-            "lieu": "AGORA - Bouillargues (30)",
-            "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-zone-sud-karate-light-contact-pbmcv-3/"
-        },
-        {
             "niveau": "departemental",
             "type": "stage-elite",
-            "titre": "Dojo Serge Merlet rue de Londres Belfort",
+            "titre": "Entrainement élite",
             "debut": "2027-01-10",
             "fin": "2027-01-10",
             "heures": "8h30 – 11h30",
-            "lieu": "",
+            "lieu": "Dojo Serge Merlet rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-15/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Coupe zone sud karaté light/full contact – juniors/seniors",
-            "debut": "2027-01-10",
-            "fin": "2027-01-10",
-            "heures": "",
-            "lieu": "AGORA - Bouillargues (30)",
-            "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-zone-sud-karate-light-full-contact-juniors-senior/"
         },
         {
             "niveau": "national",
@@ -369,16 +279,6 @@
         },
         {
             "niveau": "national",
-            "type": "competition",
-            "titre": "Open national karaté lei tai",
-            "debut": "2027-01-16",
-            "fin": "2027-01-16",
-            "heures": "",
-            "lieu": "Salle Olympie - Mandelieu-la-Napoule (06)",
-            "url": "https://www.ffkarate.fr/calendrier/open-national-karate-lei-tai/"
-        },
-        {
-            "niveau": "national",
             "type": "formation",
             "titre": "Organiser la préparation physique du compétiteur",
             "debut": "2027-01-16",
@@ -386,16 +286,6 @@
             "heures": "",
             "lieu": "Fédération Française de Karaté - CREPS Ile-de-France - Chatenay-Malabry (92)",
             "url": "https://www.ffkarate.fr/calendrier/formation-continue-organiser-la-preparation-physique-du-competiteur-module-17/"
-        },
-        {
-            "niveau": "regional",
-            "type": "stage",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
-            "debut": "2027-01-16",
-            "fin": "2027-01-16",
-            "heures": "",
-            "lieu": "",
-            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-regional-karate-mix/"
         },
         {
             "niveau": "regional",
@@ -410,11 +300,11 @@
         {
             "niveau": "regional",
             "type": "stage",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "titre": "Stage Régional Karaté Do",
             "debut": "2027-01-17",
             "fin": "2027-01-17",
             "heures": "10h00 – 12h30",
-            "lieu": "",
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-regional-karate-do/"
         },
         {
@@ -430,42 +320,12 @@
         {
             "niveau": "national",
             "type": "competition",
-            "titre": "Coupe de France krav-maga",
-            "debut": "2027-01-23",
-            "fin": "2027-01-24",
-            "heures": "",
-            "lieu": "Hall des sports - Roques (31)",
-            "url": "https://www.ffkarate.fr/calendrier/coupe-de-france/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Stage compétition amsea",
-            "debut": "2027-01-23",
-            "fin": "2027-01-23",
-            "heures": "",
-            "lieu": "",
-            "url": "https://www.ffkarate.fr/calendrier/stage-competition-amsea-2/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
             "titre": "Karate 1 – Premier League",
             "debut": "2027-01-29",
             "fin": "2027-01-31",
             "heures": "",
             "lieu": "Istanbul (Turquie)",
             "url": "https://www.ffkarate.fr/calendrier/karate-1-premier-league/"
-        },
-        {
-            "niveau": "national",
-            "type": "formation",
-            "titre": "TFP karaté, wushu et disciplines associées – zone nord 1",
-            "debut": "2027-01-29",
-            "fin": "2027-02-28",
-            "heures": "",
-            "lieu": "Fédération Française de Karaté - Montrouge (92)",
-            "url": "https://www.ffkarate.fr/calendrier/tfp-karate-wushu-et-disciplines-associees-zone-nord-1-4/"
         },
         {
             "niveau": "national",
@@ -478,33 +338,23 @@
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-kyokushinkai-combat-kata/"
         },
         {
-            "niveau": "national",
-            "type": "stage",
-            "titre": "Stage d’expert fédéral",
-            "debut": "2027-01-30",
-            "fin": "2027-01-30",
-            "heures": "",
-            "lieu": "Gymnase Elisabeth - Paris (75)",
-            "url": "https://www.ffkarate.fr/calendrier/stage-dexpert-federal/"
-        },
-        {
             "niveau": "regional",
             "type": "competition",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "titre": "OPEN Interrégional Contact",
             "debut": "2027-01-30",
             "fin": "2027-01-30",
             "heures": "",
-            "lieu": "",
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/open-interregional-contact/"
         },
         {
             "niveau": "regional",
             "type": "stage",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "titre": "Stage Kumité / Kata",
             "debut": "2027-01-31",
             "fin": "2027-01-31",
             "heures": "",
-            "lieu": "",
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite-kata-2/"
         },
         {
@@ -519,16 +369,6 @@
         },
         {
             "niveau": "national",
-            "type": "formation",
-            "titre": "Accueillir un public dans le cadre d’une prescription médicale sur ordonnance",
-            "debut": "2027-02-06",
-            "fin": "2027-03-06",
-            "heures": "",
-            "lieu": "FFK - Montrouge (92)",
-            "url": "https://www.ffkarate.fr/calendrier/formation-continue-accueillir-un-public-dans-le-cadre-dune-prescription-medicale-sur-ordonnance-module-14-1/"
-        },
-        {
-            "niveau": "national",
             "type": "competition",
             "titre": "Coupe de France wado ryu",
             "debut": "2027-02-06",
@@ -538,63 +378,43 @@
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-wado-ryu-individuels/"
         },
         {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Open national karaté lei tai",
-            "debut": "2027-02-06",
-            "fin": "2027-02-06",
-            "heures": "",
-            "lieu": "Complexe Sportif Ostermeyer - Cleon (76)",
-            "url": "https://www.ffkarate.fr/calendrier/open-national-karate-lei-tai-2/"
-        },
-        {
             "niveau": "regional",
             "type": "stage",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "titre": "Stage Karaté Santé",
             "debut": "2027-02-06",
             "fin": "2027-02-06",
             "heures": "9h00 – 12h00",
-            "lieu": "",
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-karate-sante-2/"
         },
         {
             "niveau": "regional",
             "type": "stage",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "titre": "Stage Kumité / Kata",
             "debut": "2027-02-06",
             "fin": "2027-02-07",
             "heures": "",
-            "lieu": "",
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite/"
         },
         {
             "niveau": "departemental",
             "type": "stage-elite",
-            "titre": "Dojo Serge Merlet rue de Londres Belfort",
+            "titre": "Entrainement élite",
             "debut": "2027-02-07",
             "fin": "2027-02-07",
             "heures": "8h30 – 11h30",
-            "lieu": "",
+            "lieu": "Dojo Serge Merlet rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-16/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Championnat de France para-karaté et coupe handi des disciplines associées",
-            "debut": "2027-02-07",
-            "fin": "2027-02-07",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-para-karate-et-coupe-handi-des-disciplines-associees/"
         },
         {
             "niveau": "departemental",
             "type": "stage",
-            "titre": "Gymnase Diderot rue de Zaporodjie 90000 Belfort",
+            "titre": "Stage passage de grades",
             "debut": "2027-02-13",
             "fin": "2027-02-13",
             "heures": "14h00 – 18h00",
-            "lieu": "",
+            "lieu": "Gymnase Diderot rue de Zaporodjie 90000 Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/stage-passage-de-grades/"
         },
         {
@@ -614,27 +434,17 @@
             "debut": "2027-02-13",
             "fin": "2027-02-13",
             "heures": "",
-            "lieu": "INSTITUT NATIONAL DU JUDO - PARIS (75)",
+            "lieu": "Institut National du Judo - Paris (75)",
             "url": "https://www.ffkarate.fr/calendrier/passage-de-grade-de-7eme-dan/"
-        },
-        {
-            "niveau": "national",
-            "type": "stage",
-            "titre": "Stage d’expert fédéral",
-            "debut": "2027-02-13",
-            "fin": "2027-02-13",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/stage-dexpert-federal-2/"
         },
         {
             "niveau": "departemental",
             "type": "competition",
-            "titre": "Dojo Serge Merlet rue de Londres Belfort",
+            "titre": "Inter Club Kumité PPB",
             "debut": "2027-02-14",
             "fin": "2027-02-14",
             "heures": "13h30 – 18h30",
-            "lieu": "",
+            "lieu": "Dojo Serge Merlet rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-pbm/"
         },
         {
@@ -646,26 +456,6 @@
             "heures": "",
             "lieu": "Complexe sportif du Moulin à vent - Gymnase Patriick Latour - Thorigny-sur-Marne (77)",
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-shito-ryu-shukokai-kata-2/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Open international karaté light contact – PBMCV",
-            "debut": "2027-02-20",
-            "fin": "2027-02-20",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/open-international-karate-light-contact-pbmcv-3/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Open international karaté light/full contact – juniors/seniors",
-            "debut": "2027-02-21",
-            "fin": "2027-02-21",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/open-international-karate-light-contact-full-contact-js/"
         },
         {
             "niveau": "national",
@@ -688,6 +478,16 @@
             "url": "https://www.ffkarate.fr/calendrier/open-de-france-combat-mcjs-ind/"
         },
         {
+            "niveau": "regional",
+            "type": "stage",
+            "titre": "Stage Kumité / Kata (date à confirmer)",
+            "debut": "2027-02-27",
+            "fin": "2027-02-28",
+            "heures": "",
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite-kata-date-a-confirmer/"
+        },
+        {
             "niveau": "national",
             "type": "competition",
             "titre": "Coupe de France combinée – combats/kata",
@@ -698,34 +498,14 @@
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-combine-combat-kata-ffk/"
         },
         {
-            "niveau": "regional",
-            "type": "formation",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
-            "debut": "2027-03-06",
-            "fin": "2027-03-06",
-            "heures": "",
-            "lieu": "",
-            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-darbitrage-krav-maga/"
-        },
-        {
             "niveau": "departemental",
             "type": "grades",
-            "titre": "Dojo Serge Merlet rue de Londres Belfort",
+            "titre": "Passage de Grades 2ème à 4ème dan",
             "debut": "2027-03-07",
             "fin": "2027-03-07",
             "heures": "8h30 – 11h30",
-            "lieu": "",
+            "lieu": "Dojo Serge Merlet rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-3/"
-        },
-        {
-            "niveau": "regional",
-            "type": "stage",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
-            "debut": "2027-03-07",
-            "fin": "2027-03-07",
-            "heures": "",
-            "lieu": "",
-            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-krav-maga/"
         },
         {
             "niveau": "national",
@@ -736,26 +516,6 @@
             "heures": "",
             "lieu": "Rome (Italie)",
             "url": "https://www.ffkarate.fr/calendrier/karate-1-premier-league-2/"
-        },
-        {
-            "niveau": "national",
-            "type": "formation",
-            "titre": "TFP karaté, wushu et disciplines associées – zone sud",
-            "debut": "2027-03-12",
-            "fin": "2027-04-11",
-            "heures": "",
-            "lieu": "Centre National d'Entrainement - CASTELNAU-LE-LEZ (34)",
-            "url": "https://www.ffkarate.fr/calendrier/tfp-karate-wushu-et-disciplines-associees-zone-sud/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Championnat de France karaté semi contact – PBMCV",
-            "debut": "2027-03-13",
-            "fin": "2027-03-13",
-            "heures": "",
-            "lieu": "Ecully (69)",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-karate-semi-contact-pbmcv-ind/"
         },
         {
             "niveau": "national",
@@ -780,32 +540,12 @@
         {
             "niveau": "departemental",
             "type": "stage-elite",
-            "titre": "Dojo Serge Merlet rue de Londres Belfort",
+            "titre": "Entrainement élite",
             "debut": "2027-03-14",
             "fin": "2027-03-14",
             "heures": "8h30 – 11h30",
-            "lieu": "",
+            "lieu": "Dojo Serge Merlet rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-17/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Championnat de France karaté semi contact/contact – juniors/seniors",
-            "debut": "2027-03-14",
-            "fin": "2027-03-14",
-            "heures": "",
-            "lieu": "Ecully (69)",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-karate-semi-contact-contact-js-ind/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Coupe zone nord body-karaté",
-            "debut": "2027-03-14",
-            "fin": "2027-03-14",
-            "heures": "",
-            "lieu": "Pont-à-Mousson (54)",
-            "url": "https://www.ffkarate.fr/calendrier/coupe-zone-nord-body-karate/"
         },
         {
             "niveau": "national",
@@ -816,26 +556,6 @@
             "heures": "",
             "lieu": "-- En attente de confirmation de la salle --",
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-shorinji-kempo-14/"
-        },
-        {
-            "niveau": "national",
-            "type": "stage",
-            "titre": "Stage d’expert fédéral",
-            "debut": "2027-03-20",
-            "fin": "2027-03-20",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/stage-dexpert-federal-3/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Coupe zone sud body-karaté",
-            "debut": "2027-03-21",
-            "fin": "2027-03-21",
-            "heures": "",
-            "lieu": "Auriol (13)",
-            "url": "https://www.ffkarate.fr/calendrier/coupe-zone-sud-body-karate/"
         },
         {
             "niveau": "national",
@@ -860,16 +580,6 @@
         {
             "niveau": "national",
             "type": "competition",
-            "titre": "Championnat de France karaté mix light – MCJS",
-            "debut": "2027-04-03",
-            "fin": "2027-04-03",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-karate-mix-light-ind-2/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
             "titre": "Coupe de France kobudo traditionnel",
             "debut": "2027-04-03",
             "fin": "2027-04-03",
@@ -880,32 +590,12 @@
         {
             "niveau": "national",
             "type": "competition",
-            "titre": "Championnat de France karaté mix light vétérans / karaté mix seniors / karaté mix élite seniors",
-            "debut": "2027-04-04",
-            "fin": "2027-04-04",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-karate-mix/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
             "titre": "Coupe de France kata – MCJES",
             "debut": "2027-04-10",
             "fin": "2027-04-11",
             "heures": "",
             "lieu": "Grand Dôme de Villebon - VILLEBON-SUR-YVETTE (91)",
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-kata-mcjes-individuels/"
-        },
-        {
-            "niveau": "national",
-            "type": "stage",
-            "titre": "Stage d’expert fédéral",
-            "debut": "2027-04-10",
-            "fin": "2027-04-10",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/stage-dexpert-federal-4/"
         },
         {
             "niveau": "national",
@@ -930,26 +620,6 @@
         {
             "niveau": "national",
             "type": "competition",
-            "titre": "Championnat de France karaté full contact – juniors/seniors – honneurs/elites",
-            "debut": "2027-04-17",
-            "fin": "2027-04-17",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-karate-full-contact-juniors-seniors-honneurs-elites-ind/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Championnat de France karaté light contact – PBM",
-            "debut": "2027-04-17",
-            "fin": "2027-04-17",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-karate-light-contact-pbm-ind/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
             "titre": "Coupe de France combats – cadets/U21",
             "debut": "2027-04-17",
             "fin": "2027-04-18",
@@ -958,54 +628,14 @@
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-combat-cadets-espoirs/"
         },
         {
-            "niveau": "regional",
-            "type": "competition",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
-            "debut": "2027-04-17",
-            "fin": "2027-04-17",
-            "heures": "",
-            "lieu": "",
-            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/open-karate-mix/"
-        },
-        {
             "niveau": "departemental",
             "type": "stage-elite",
-            "titre": "Dojo Serge Merlet rue de Londres Belfort",
+            "titre": "Entrainement élite",
             "debut": "2027-04-18",
             "fin": "2027-04-18",
             "heures": "8h30 – 11h30",
-            "lieu": "",
+            "lieu": "Dojo Serge Merlet rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-18/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Championnat de France karaté light contact – CJSV",
-            "debut": "2027-04-18",
-            "fin": "2027-04-18",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-karate-light-contact-cjsv-ind/"
-        },
-        {
-            "niveau": "regional",
-            "type": "stage",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
-            "debut": "2027-04-18",
-            "fin": "2027-04-18",
-            "heures": "",
-            "lieu": "",
-            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-karate-mix-2/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Championnat national karaté lei tai",
-            "debut": "2027-04-24",
-            "fin": "2027-04-24",
-            "heures": "",
-            "lieu": "Palais des Sports de Laon - Laon (02)",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-national-karate-lei-tai/"
         },
         {
             "niveau": "national",
@@ -1048,44 +678,24 @@
             "url": "https://www.ffkarate.fr/calendrier/karate-1-premier-league-3/"
         },
         {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Championnat de France kali eskrima",
+            "niveau": "regional",
+            "type": "stage",
+            "titre": "Stage Kata / Kumité en Franche-Comté",
             "debut": "2027-05-08",
             "fin": "2027-05-09",
             "heures": "",
-            "lieu": "Saint Maxime (83)",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-kali-eskrima-8/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Championnat de France karaté contact/semi contact/interdisciplines",
-            "debut": "2027-05-08",
-            "fin": "2027-05-08",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-karate-contact-semi-contact-interdisciplines-2/"
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kata-kumite-en-franche-comte/"
         },
         {
             "niveau": "departemental",
             "type": "stage-elite",
-            "titre": "Dojo Serge Merlet rue de Londres Belfort",
+            "titre": "Entrainement élite",
             "debut": "2027-05-09",
             "fin": "2027-05-09",
             "heures": "8h30 – 11h30",
-            "lieu": "",
+            "lieu": "Dojo Serge Merlet rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-19/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Championnat de France krav-maga",
-            "debut": "2027-05-15",
-            "fin": "2027-05-16",
-            "heures": "",
-            "lieu": "Gymnase du Belvédère - Suresnes (92)",
-            "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-2/"
         },
         {
             "niveau": "national",
@@ -1096,16 +706,6 @@
             "heures": "",
             "lieu": "Algers (Algérie)",
             "url": "https://www.ffkarate.fr/calendrier/karate-1-youth-league-3/"
-        },
-        {
-            "niveau": "national",
-            "type": "formation",
-            "titre": "TFP karaté, wushu et disciplines associées – zone nord 2",
-            "debut": "2027-05-21",
-            "fin": "2027-06-20",
-            "heures": "",
-            "lieu": "Fédération Française de Karaté - Montrouge (92)",
-            "url": "https://www.ffkarate.fr/calendrier/tfp-karate-wushu-et-disciplines-associees-zone-nord-2-4/"
         },
         {
             "niveau": "national",
@@ -1146,26 +746,6 @@
             "heures": "",
             "lieu": "Palais omnisports Pierre Duprès - Maisons Laffitte (78)",
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-uechi-ryu-15/"
-        },
-        {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Open de France karaté mix light – MCJS",
-            "debut": "2027-05-22",
-            "fin": "2027-05-23",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/open-de-france-karate-mix-5/"
-        },
-        {
-            "niveau": "national",
-            "type": "stage-elite",
-            "titre": "Open de France karaté mix light vétérans / karaté mix seniors / karaté élite seniors",
-            "debut": "2027-05-23",
-            "fin": "2027-05-23",
-            "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
-            "url": "https://www.ffkarate.fr/calendrier/open-de-france-karate-mix-light-veterans-karate-mix-seniors-karate-elite-seniors/"
         },
         {
             "niveau": "national",
@@ -1248,23 +828,13 @@
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-kata-zone-nord-benjamins/"
         },
         {
-            "niveau": "national",
-            "type": "competition",
-            "titre": "Open national karaté lei tai",
-            "debut": "2027-06-05",
-            "fin": "2027-06-05",
-            "heures": "",
-            "lieu": "Centre sportif Nelson Mandela - Schiltigheim (67)",
-            "url": "https://www.ffkarate.fr/calendrier/open-national-karate-lei-tai-3/"
-        },
-        {
             "niveau": "departemental",
             "type": "grades",
-            "titre": "Dojo Serge Merlet rue de Londres Belfort",
+            "titre": "Passage de grades 2éme à 4ème dan",
             "debut": "2027-06-06",
             "fin": "2027-06-06",
             "heures": "8h11 – 11h30",
-            "lieu": "",
+            "lieu": "Dojo Serge Merlet rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-2eme-a-4eme-dan/"
         },
         {
@@ -1310,11 +880,11 @@
         {
             "niveau": "departemental",
             "type": "stage-elite",
-            "titre": "Dojo Serge Merlet rue de Londres Belfort",
+            "titre": "Entrainement élite",
             "debut": "2027-06-13",
             "fin": "2027-06-13",
             "heures": "8h30 – 11h30",
-            "lieu": "",
+            "lieu": "Dojo Serge Merlet rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-20/"
         },
         {
@@ -1369,16 +939,6 @@
         },
         {
             "niveau": "national",
-            "type": "formation",
-            "titre": "Développer la section baby karaté et disciplines associées",
-            "debut": "2027-06-19",
-            "fin": "2027-06-19",
-            "heures": "",
-            "lieu": "Centre National d'Entrainement - CASTELNAU-LE-LEZ (34)",
-            "url": "https://www.ffkarate.fr/calendrier/formation-continue-developper-la-section-baby-karate-et-disciplines-associees/"
-        },
-        {
-            "niveau": "national",
             "type": "grades",
             "titre": "Passage de grade de 6ème dan -50 ans Zone Nord",
             "debut": "2027-06-19",
@@ -1388,23 +948,33 @@
             "url": "https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans-zone-nord/"
         },
         {
+            "niveau": "regional",
+            "type": "grades",
+            "titre": "Passage de Grade 5 DAN",
+            "debut": "2027-06-19",
+            "fin": "2027-06-19",
+            "heures": "8h00 – 14h00",
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/passage-de-grade-5-dan-2/"
+        },
+        {
             "niveau": "departemental",
             "type": "competition",
-            "titre": "Dojo Serge Merlet rue de Londres Belfort",
+            "titre": "Inter Club Kumité PPB",
             "debut": "2027-06-20",
             "fin": "2027-06-20",
             "heures": "13h30 – 18h30",
-            "lieu": "",
+            "lieu": "Dojo Serge Merlet rue de Londres Belfort",
             "url": "https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-pbm-2/"
         },
         {
             "niveau": "regional",
             "type": "competition",
-            "titre": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
+            "titre": "Séminaire LR / OPEN PB",
             "debut": "2027-06-20",
             "fin": "2027-06-20",
             "heures": "",
-            "lieu": "",
+            "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/seminaire-lr-open-pb/"
         },
         {
