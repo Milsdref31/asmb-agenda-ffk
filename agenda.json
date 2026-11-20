@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "majLe": "2026-11-20T09:15:14Z",
+    "majLe": "2026-11-20T09:17:25Z",
     "sources": {
         "departemental": {
             "ok": true,
@@ -84,7 +84,7 @@
             "debut": "2026-11-28",
             "fin": "2026-11-28",
             "heures": "",
-            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21) - Chevigny-Saint-Sauveur",
+            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21)",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/coupe-combat-pb-bourg-franche-comte-2/"
         },
         {
@@ -94,7 +94,7 @@
             "debut": "2026-11-29",
             "fin": "2026-11-29",
             "heures": "",
-            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21) - Chevigny-Saint-Sauveur",
+            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21)",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-combat-bfc-mcjs/"
         },
         {
@@ -104,7 +104,7 @@
             "debut": "2026-11-29",
             "fin": "2026-11-29",
             "heures": "",
-            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21) - Chevigny-Saint-Sauveur",
+            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21)",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-combat-bfc-equipe/"
         },
         {
@@ -114,7 +114,7 @@
             "debut": "2026-11-29",
             "fin": "2026-11-29",
             "heures": "",
-            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21) - Chevigny-Saint-Sauveur",
+            "lieu": "Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21)",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-combat-bfc-veterans/"
         },
         {
