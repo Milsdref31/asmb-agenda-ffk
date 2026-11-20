@@ -140,12 +140,20 @@ function ffk_type($titre, $etiquettes) {
     return null;
 }
 
-// Rendez-vous d'une autre discipline que le karaté (le club pratique le karaté-do) : écartés du calendrier national
+/* Rendez-vous d'une autre discipline que le karaté (le club pratique le karaté-do) : écartés.
+   Disciplines de la FFK relevées dans l'agenda (20/11/2026) : Karaté, France Karaté (équipe de France), Wushu,
+   Arts martiaux vietnamiens, Karaté contact, Karaté mix, Yoseikan Budo, Krav-Maga, Full contact, Arts martiaux du Sud-Est asiatique.
+   Sans discipline (sites des comités et ligues, formations, grades…), le titre décide. Appliqué aux trois niveaux. */
 function ffk_autre_discipline($titre, $etiquettes) {
-    $t = ffk_sans_accents($titre . ' | ' . implode(' | ', $etiquettes));
-    $k = preg_match('/karate(?! (mix|contact|full|jutsu))|kata|kumite|france karate|para karate/', $t);
-    $autres = preg_match('/wushu|yoseikan|arts martiaux vietnamiens|\bamv\b|krav maga|tai chi|qi gong|full contact|karate contact|karate mix|kenpo|kung fu|sanda|nihon tai jitsu|taekwondo|body karate|karate jutsu|self.?defense/', $t);
-    return $autres && !$k;
+    $karate = false; $autre = false;
+    foreach ($etiquettes as $e) {
+        $e = ffk_sans_accents($e);
+        if (in_array($e, array('karate', 'france karate', 'para karate', 'karate do', 'kata', 'kumite'))) $karate = true;
+        elseif (preg_match('/wushu|vietnam|karate contact|karate mix|yoseikan|krav|full contact|sud-est|tai ?jitsu|kenpo|kung|sanda|qi gong|tai chi|body karate|karate jutsu|disciplines associees/', $e)) $autre = true;
+    }
+    if ($karate) return false;
+    if ($autre) return true;
+    return (bool)preg_match('/wushu|lei tai|sanda|taolu|vietnam|\bamv\b|yoseikan|krav|full contact|karate contact|karate mix|kick|tai ?jitsu|nihon|kenpo|kung ?fu|qi ?gong|tai ?chi|disciplines associees|body karate|karate jutsu|sud-est/', ffk_sans_accents($titre));
 }
 
 /* ---------- lecture des pages HTML (sites des comités et ligues) ---------- */
@@ -168,9 +176,36 @@ function ffk_absolu($href, $base) {
 
 /* Liste des rendez-vous d'une page : array de array(url, titre, debut, fin, heures, lieu, etiquettes[]) + 'suivante' (URL page suivante ou '').
    Méthode : chaque lien vers une fiche ; on remonte dans la page tant que le bloc ne contient que cette fiche : c'est le bloc du rendez-vous. */
+/* Mise en page des sites des comités et ligues (relevée le 20/11/2026) :
+   <a href="…/event/…" class="hentry upcomming"><div class="date"><time datetime="2026-12-06">Dim. 6 Décembre 2026</time><br> de 08h30 à 11h30</div>
+   <div class="event_info"><div class="title">…</div><div class="address">…</div><div class="cat">Entrainement Elite</div></div></a> */
+function ffk_lire_hentry($xp, $base, $motif_fiche) {
+    $res = array();
+    $classe = function ($c) { return "contains(concat(' ', normalize-space(@class), ' '), ' $c ')"; };
+    foreach ($xp->query('//a[' . $classe('hentry') . '][@href]') as $a) {
+        $u = rtrim(ffk_absolu(trim($a->getAttribute('href')), $base), '/') . '/';
+        if (!preg_match($motif_fiche, $u)) continue;
+        $champ = function ($c) use ($xp, $a, $classe) { $n = $xp->query('.//*[' . $classe($c) . ']', $a)->item(0); return $n ? ffk_texte($n->textContent) : ''; };
+        $t = $xp->query('.//time[@datetime]', $a)->item(0);
+        $date_txt = $champ('date');
+        $debut = $t && preg_match('/^\d{4}-\d{2}-\d{2}/', $t->getAttribute('datetime'), $m) ? $m[0] : '';
+        $d = ffk_dates($date_txt);
+        if ($debut === '' && $d) $debut = $d['debut'];
+        if ($debut === '') continue;
+        $fin = $d && $d['fin'] > $debut ? $d['fin'] : $debut;
+        $titre = $champ('title');
+        if ($titre === '') continue;
+        $cat = $champ('cat');
+        $res[] = array('url' => $u, 'titre' => $titre, 'debut' => $debut, 'fin' => $fin, 'heures' => $d ? $d['heures'] : '',
+                       'lieu' => $champ('address'), 'etiquettes' => $cat !== '' ? array($cat) : array());
+    }
+    return $res;
+}
+
 function ffk_lire_page($html, $base, $motif_fiche) {
     $dom = ffk_dom($html);
     $xp = new DOMXPath($dom);
+    $precis = ffk_lire_hentry($xp, $base, $motif_fiche);   // si la mise en page connue est là ; sinon méthode générale ci-dessous
     $par_url = array();
     foreach ($xp->query('//a[@href]') as $a) {
         $u = preg_replace('/#.*$/', '', ffk_absolu(trim($a->getAttribute('href')), $base));
@@ -187,6 +222,7 @@ function ffk_lire_page($html, $base, $motif_fiche) {
         return $s;
     };
     $res = array();
+    if ($precis) $par_url = array();
     foreach ($par_url as $u => $liens) {
         $bloc = $liens[0];
         for ($n = $liens[0]->parentNode; $n && $n->nodeType === XML_ELEMENT_NODE && $n->nodeName !== 'body'; $n = $n->parentNode) {
@@ -240,7 +276,7 @@ function ffk_lire_page($html, $base, $motif_fiche) {
     $suivante = '';
     foreach ($xp->query('//a[@rel="next"]|//link[@rel="next"]|//a[contains(@class,"next")]') as $a) { $suivante = ffk_absolu($a->getAttribute('href'), $base); break; }
     if ($suivante === '') foreach ($xp->query('//a[@href]') as $a) if (preg_match('/^suivant/iu', ffk_texte($a->textContent))) { $suivante = ffk_absolu($a->getAttribute('href'), $base); break; }
-    return array('evenements' => $res, 'suivante' => $suivante);
+    return array('evenements' => $precis ? $precis : $res, 'suivante' => $suivante);
 }
 
 /* ---------- agenda .ics (calendrier national) ---------- */
@@ -261,11 +297,32 @@ function ffk_lire_ics($ics) {
         $fin_iso = sprintf('%s-%s-%s', $f[1], $f[2], $f[3]);
         if ($journee && $fin) $fin_iso = date('Y-m-d', strtotime($fin_iso . ' -1 day'));   // DTEND exclusif pour les journées entières
         if ($fin_iso < sprintf('%s-%s-%s', $d[1], $d[2], $d[3])) $fin_iso = sprintf('%s-%s-%s', $d[1], $d[2], $d[3]);
+        // la description donne « Discipline : … » et « Famille : … » (séparés par \n) : ajoutés aux étiquettes
+        $etiq = array_values(array_filter(array_map('trim', explode(',', $val($b, 'CATEGORIES')))));
+        if (preg_match('/^DESCRIPTION(?:;[^:\n]*)?:(.*)$/m', $b, $dm))
+            foreach (explode('\n', $dm[1]) as $ligne) if (preg_match('/^\s*(Discipline|Famille)\s*:\s*(.+)$/u', str_replace('\,', ',', $ligne), $lm))
+                foreach (explode(',', $lm[2]) as $x) $etiq[] = trim($x);
         $res[] = array('url' => $val($b, 'URL'), 'titre' => $val($b, 'SUMMARY'), 'debut' => sprintf('%s-%s-%s', $d[1], $d[2], $d[3]), 'fin' => $fin_iso,
                        'heures' => $journee ? '' : sprintf('%dh%s', $d[4], $d[5]), 'lieu' => $val($b, 'LOCATION'),
-                       'etiquettes' => array_values(array_filter(array_map('trim', explode(',', $val($b, 'CATEGORIES'))))), 'desc' => $val($b, 'DESCRIPTION'));
+                       'etiquettes' => array_values(array_unique(array_filter($etiq))));
     }
     return $res;
+}
+
+/* Textes saisis tout en majuscules sur certains sites (« CHAMPIONNAT COMBAT BFC VETERANS ») : remis en casse normale.
+   Titre : majuscule au début seulement ; lieu : majuscule à chaque mot (sauf petits mots). Les sigles sans voyelle (BFC, PB, MCJS) restent. */
+function ffk_casse($s, $lieu = false) {
+    if (!preg_match('/\p{L}/u', $s) || mb_strtoupper($s, 'UTF-8') !== $s) return $s;
+    $petits = array('le', 'la', 'les', 'de', 'du', 'des', 'et', 'à', 'au', 'aux', 'en', 'sur', "d'", "l'");
+    $mots = preg_split('/(\s+|-|\(|\))/u', mb_strtolower($s, 'UTF-8'), -1, PREG_SPLIT_DELIM_CAPTURE);
+    $n = 0;
+    foreach ($mots as $i => $m) {
+        if ($m === '' || !preg_match('/\p{L}/u', $m)) continue;
+        if (!preg_match('/[aeiouyàâäéèêëîïôöùûü]/u', $m)) $mots[$i] = mb_strtoupper($m, 'UTF-8');
+        elseif ($n === 0 || ($lieu && !in_array($m, $petits))) $mots[$i] = mb_strtoupper(mb_substr($m, 0, 1, 'UTF-8'), 'UTF-8') . mb_substr($m, 1, null, 'UTF-8');
+        $n++;
+    }
+    return implode('', $mots);
 }
 
 /* ---------- tout récupérer ---------- */
@@ -306,13 +363,14 @@ function ffk_tout($pages_max = 6) {
         $deja = array();
         foreach ($bruts as $e) {
             if ($e['fin'] < $aujourdhui || $e['debut'] > $limite || $e['titre'] === '') continue;
-            if ($niveau === 'national' && ffk_autre_discipline($e['titre'], $e['etiquettes'])) continue;
+            if ((strtotime($e['fin']) - strtotime($e['debut'])) / 86400 > 21) continue;   // périodes d'inscription, VAE… : pas des rendez-vous
+            if (ffk_autre_discipline($e['titre'], $e['etiquettes'])) continue;
             $type = ffk_type($e['titre'], $e['etiquettes']);
             if (!$type) continue;
             $cle = $e['url'] !== '' ? $e['url'] : $e['titre'] . $e['debut'];
             if (isset($deja[$cle])) continue; $deja[$cle] = 1;
-            $tout[] = array('niveau' => $niveau, 'type' => $type, 'titre' => $e['titre'], 'debut' => $e['debut'], 'fin' => $e['fin'],
-                            'heures' => $e['heures'], 'lieu' => $e['lieu'], 'url' => $e['url'] !== '' ? $e['url'] : $src['url']);
+            $tout[] = array('niveau' => $niveau, 'type' => $type, 'titre' => ffk_casse($e['titre']), 'debut' => $e['debut'], 'fin' => $e['fin'],
+                            'heures' => $e['heures'], 'lieu' => ffk_casse($e['lieu'], true), 'url' => $e['url'] !== '' ? $e['url'] : $src['url']);
             $cr['gardes']++;
         }
         $sources[$niveau] = $cr;
