@@ -371,6 +371,8 @@ function ffk_ics($evenements, $nom) {
         $l[] = 'DESCRIPTION:' . ffk_ics_texte($NOMS_T[$e['type']] . ' · ' . $NOMS_N[$e['niveau']] . "\nFiche : " . $e['url']);
         $l[] = 'URL:' . $e['url'];
         $l[] = 'CATEGORIES:' . ffk_ics_texte($NOMS_T[$e['type']]);
+        // rappel la veille (24 h avant) : suivi par Apple Calendrier et Outlook ; Google Agenda applique ses propres rappels
+        $l[] = 'BEGIN:VALARM'; $l[] = 'ACTION:DISPLAY'; $l[] = 'DESCRIPTION:' . ffk_ics_texte('Demain : ' . $e['titre']); $l[] = 'TRIGGER:-P1D'; $l[] = 'END:VALARM';
         $l[] = 'END:VEVENT';
     }
     $l[] = 'END:VCALENDAR';
