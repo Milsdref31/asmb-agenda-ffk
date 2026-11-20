@@ -1,0 +1,33 @@
+# Robot de l'agenda fédéral de l'ASMB Karaté-do Belfort.
+# Le 1er de chaque mois (et à la demande : onglet Actions › Agenda FFK › Run workflow),
+# lit les calendriers de la FFK et met à jour agenda.json, affiché par le site du club.
+name: Agenda FFK
+
+on:
+  schedule:
+    - cron: "17 4 1 * *"   # le 1er du mois vers 5 h (heure de Paris)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agenda
+  cancel-in-progress: false
+
+jobs:
+  agenda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lire les calendriers de la FFK
+        run: php robot.php
+      - name: Publier agenda.json
+        run: |
+          git config user.name "robot-agenda"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add agenda.json
+          git diff --cached --quiet && echo "Rien de neuf." && exit 0
+          git commit -m "Agenda FFK du $(date -u +%Y-%m-%d)"
+          git push
