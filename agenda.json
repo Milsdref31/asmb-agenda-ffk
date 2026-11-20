@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "majLe": "2026-11-20T09:13:57Z",
+    "majLe": "2026-11-20T09:15:14Z",
     "sources": {
         "departemental": {
             "ok": true,
@@ -16,7 +16,7 @@
         },
         "national": {
             "ok": true,
-            "nb": 66,
+            "nb": 65,
             "pages": 0,
             "erreur": ""
         }
@@ -76,16 +76,6 @@
             "heures": "19h00 – 21h00",
             "lieu": "Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur",
             "url": "https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-de-self-defense-feminin-akdc/"
-        },
-        {
-            "niveau": "national",
-            "type": "stage",
-            "titre": "Stage national zone nord de Nihon Tai Jitsu",
-            "debut": "2026-11-28",
-            "fin": "2026-11-29",
-            "heures": "",
-            "lieu": "Maison des associations - Vesoul (70)",
-            "url": "https://www.ffkarate.fr/calendrier/stage-national-zone-nord-de-nihon-tai-jitsu/"
         },
         {
             "niveau": "regional",
