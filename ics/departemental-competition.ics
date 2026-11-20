@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASMB Karate Belfort//Agenda FFK//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Compétitions FFK départemental (ASMB Karaté)
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:80ada367f57e7d7fd439@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270214T133000
+DTEND:20270214T183000
+SUMMARY:Inter Club Kumité PPB
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Compétition · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-p
+ bm/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-
+ pbm/
+CATEGORIES:Compétition
+END:VEVENT
+BEGIN:VEVENT
+UID:dd27b5d11c703a37be5c@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270620T133000
+DTEND:20270620T183000
+SUMMARY:Inter Club Kumité PPB
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Compétition · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-p
+ bm-2/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-
+ pbm-2/
+CATEGORIES:Compétition
+END:VEVENT
+END:VCALENDAR

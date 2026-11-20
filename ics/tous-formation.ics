@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASMB Karate Belfort//Agenda FFK//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Formations FFK (ASMB Karaté)
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:e96d9ce91c4445654fb9@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Développer la posture du coach en compétition
+LOCATION:Fédération Française de Karaté - Montrouge (92)
+DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
+ ier/formation-continue-developper-la-posture-du-coach-en-competition-modu
+ le-20/
+URL:https://www.ffkarate.fr/calendrier/formation-continue-developper-la-po
+ sture-du-coach-en-competition-module-20/
+CATEGORIES:Formation
+END:VEVENT
+BEGIN:VEVENT
+UID:700f88973eed49b0f93f@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Optimiser la pédagogie pour le public enfant
+LOCATION:Fédération Française de Karaté - CREPS Ile-de-France - Chaten
+ ay-Malabry (92)
+DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
+ ier/formation-continue-optimiser-la-pedagogie-pour-le-public-enfant-modul
+ e-22/
+URL:https://www.ffkarate.fr/calendrier/formation-continue-optimiser-la-ped
+ agogie-pour-le-public-enfant-module-22/
+CATEGORIES:Formation
+END:VEVENT
+BEGIN:VEVENT
+UID:005e2424a6254fc37aed@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20261213T083000
+DTEND:20261213T113000
+SUMMARY:Formation Arbitrage et entrainement élite
+LOCATION:10 rue de Londres Belfort
+DESCRIPTION:Formation · Départemental (Territoire de Belfort)\nFiche : h
+ ttps://sites.ffkarate.fr/territoiredebelfort/event/formation-arbitrage-et
+ -entrainement-elite/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/formation-arbitrag
+ e-et-entrainement-elite/
+CATEGORIES:Formation
+END:VEVENT
+BEGIN:VEVENT
+UID:3af13081d538f827c463@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Organiser la préparation physique du compétiteur
+LOCATION:Fédération Française de Karaté - CREPS Ile-de-France - Chaten
+ ay-Malabry (92)
+DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
+ ier/formation-continue-organiser-la-preparation-physique-du-competiteur-m
+ odule-17/
+URL:https://www.ffkarate.fr/calendrier/formation-continue-organiser-la-pre
+ paration-physique-du-competiteur-module-17/
+CATEGORIES:Formation
+END:VEVENT
+BEGIN:VEVENT
+UID:23f2e469ddc04e06d432@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Encadrer un public senior dans son club
+LOCATION:Centre National d'Entrainement - CASTELNAU-LE-LEZ (34)
+DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
+ ier/formation-continue-encadrer-un-public-senior-dans-son-club-module-15/
+URL:https://www.ffkarate.fr/calendrier/formation-continue-encadrer-un-publ
+ ic-senior-dans-son-club-module-15/
+CATEGORIES:Formation
+END:VEVENT
+BEGIN:VEVENT
+UID:5084864d704052dfa004@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270419
+SUMMARY:Accueillir un pratiquant en situation de handicap
+LOCATION:Fédération Française de Karaté - CREPS Ile-de-France - Chaten
+ ay-Malabry (92)
+DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
+ ier/formation-continue-accueillir-un-pratiquant-en-situation-de-handicap/
+URL:https://www.ffkarate.fr/calendrier/formation-continue-accueillir-un-pr
+ atiquant-en-situation-de-handicap/
+CATEGORIES:Formation
+END:VEVENT
+BEGIN:VEVENT
+UID:a5f3452b3d49ec4a2cc6@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270531
+SUMMARY:Accueillir un pratiquant en situation de handicap
+LOCATION:Centre National d'Entrainement - CASTELNAU-LE-LEZ (34)
+DESCRIPTION:Formation · National\nFiche : https://www.ffkarate.fr/calendr
+ ier/formation-continue-accueillir-un-pratiquant-en-situation-de-handicap-
+ 2/
+URL:https://www.ffkarate.fr/calendrier/formation-continue-accueillir-un-pr
+ atiquant-en-situation-de-handicap-2/
+CATEGORIES:Formation
+END:VEVENT
+END:VCALENDAR

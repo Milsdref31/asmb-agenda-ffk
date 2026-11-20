@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASMB Karate Belfort//Agenda FFK//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Agenda FFK départemental (ASMB Karaté)
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:74aae37b6754eda21c3c@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20261206T083000
+DTEND:20261206T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 14/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -14/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:005e2424a6254fc37aed@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20261213T083000
+DTEND:20261213T113000
+SUMMARY:Formation Arbitrage et entrainement élite
+LOCATION:10 rue de Londres Belfort
+DESCRIPTION:Formation · Départemental (Territoire de Belfort)\nFiche : h
+ ttps://sites.ffkarate.fr/territoiredebelfort/event/formation-arbitrage-et
+ -entrainement-elite/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/formation-arbitrag
+ e-et-entrainement-elite/
+CATEGORIES:Formation
+END:VEVENT
+BEGIN:VEVENT
+UID:4c0e1159db5b718a6a3d@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270110T083000
+DTEND:20270110T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 15/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -15/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:19784f98e821d191c1f8@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270207T083000
+DTEND:20270207T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 16/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -16/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:f8763f61cb61551b4395@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270213T140000
+DTEND:20270213T180000
+SUMMARY:Stage passage de grades
+LOCATION:Gymnase Diderot rue de Zaporodjie 90000 Belfort
+DESCRIPTION:Stage · Départemental (Territoire de Belfort)\nFiche : https
+ ://sites.ffkarate.fr/territoiredebelfort/event/stage-passage-de-grades/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/stage-passage-de-g
+ rades/
+CATEGORIES:Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:80ada367f57e7d7fd439@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270214T133000
+DTEND:20270214T183000
+SUMMARY:Inter Club Kumité PPB
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Compétition · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-p
+ bm/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-
+ pbm/
+CATEGORIES:Compétition
+END:VEVENT
+BEGIN:VEVENT
+UID:9168ada02b714315b2a5@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270307T083000
+DTEND:20270307T113000
+SUMMARY:Passage de Grades 2ème à 4ème dan
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Grades · Départemental (Territoire de Belfort)\nFiche : http
+ s://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-3/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-
+ 3/
+CATEGORIES:Grades
+END:VEVENT
+BEGIN:VEVENT
+UID:3878c2ca02678112d847@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270314T083000
+DTEND:20270314T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 17/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -17/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:479f028e6ba8da18d442@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270418T083000
+DTEND:20270418T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 18/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -18/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:dc20fe0bf17989f3a6e6@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270509T083000
+DTEND:20270509T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 19/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -19/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:ab396ab846205b9fee84@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270606T081100
+DTEND:20270606T113000
+SUMMARY:Passage de grades 2éme à 4ème dan
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Grades · Départemental (Territoire de Belfort)\nFiche : http
+ s://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-2eme-a-
+ 4eme-dan/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-
+ 2eme-a-4eme-dan/
+CATEGORIES:Grades
+END:VEVENT
+BEGIN:VEVENT
+UID:88d8b182976ea6246d30@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270613T083000
+DTEND:20270613T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 20/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -20/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:dd27b5d11c703a37be5c@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270620T133000
+DTEND:20270620T183000
+SUMMARY:Inter Club Kumité PPB
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Compétition · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-p
+ bm-2/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/inter-club-kumite-
+ pbm-2/
+CATEGORIES:Compétition
+END:VEVENT
+END:VCALENDAR

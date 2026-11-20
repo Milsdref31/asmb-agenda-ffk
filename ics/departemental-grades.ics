@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASMB Karate Belfort//Agenda FFK//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Grades FFK départemental (ASMB Karaté)
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:9168ada02b714315b2a5@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270307T083000
+DTEND:20270307T113000
+SUMMARY:Passage de Grades 2ème à 4ème dan
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Grades · Départemental (Territoire de Belfort)\nFiche : http
+ s://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-3/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-
+ 3/
+CATEGORIES:Grades
+END:VEVENT
+BEGIN:VEVENT
+UID:ab396ab846205b9fee84@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270606T081100
+DTEND:20270606T113000
+SUMMARY:Passage de grades 2éme à 4ème dan
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Grades · Départemental (Territoire de Belfort)\nFiche : http
+ s://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-2eme-a-
+ 4eme-dan/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-
+ 2eme-a-4eme-dan/
+CATEGORIES:Grades
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASMB Karate Belfort//Agenda FFK//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stages FFK régional (ASMB Karaté)
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:0ea2793efecc4ad40450@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20261125T190000
+DTEND:20261125T210000
+SUMMARY:Stage Self Defense Féminin
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
+ /sites.ffkarate.fr/bourgognefranchecomte/event/stage-self-defense-feminin
+ /
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-self-defen
+ se-feminin/
+CATEGORIES:Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:96607dcac0054ea92cff@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20261125T190000
+DTEND:20261125T210000
+SUMMARY:Stage de Self Defense Féminin (AKDC)
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
+ /sites.ffkarate.fr/bourgognefranchecomte/event/stage-de-self-defense-femi
+ nin-akdc/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-de-self-de
+ fense-feminin-akdc/
+CATEGORIES:Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:732dfa9f76699f4ae6cd@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Stage de Noël (avec AKDC)
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
+ /sites.ffkarate.fr/bourgognefranchecomte/event/stage-de-noel-avec-akdc/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-de-noel-av
+ ec-akdc/
+CATEGORIES:Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:aad2fbcfa8860d99dde4@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270117T100000
+DTEND:20270117T123000
+SUMMARY:Stage Régional Karaté Do
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
+ /sites.ffkarate.fr/bourgognefranchecomte/event/stage-regional-karate-do/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-regional-k
+ arate-do/
+CATEGORIES:Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:63e04030c76cbafc6e1a@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Stage Kumité / Kata
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
+ /sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite-kata-2/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite-kat
+ a-2/
+CATEGORIES:Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:0c390f017ef2f0963edc@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270206T090000
+DTEND:20270206T120000
+SUMMARY:Stage Karaté Santé
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
+ /sites.ffkarate.fr/bourgognefranchecomte/event/stage-karate-sante-2/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-karate-san
+ te-2/
+CATEGORIES:Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:d1471be431f56a8fa601@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270208
+SUMMARY:Stage Kumité / Kata
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
+ /sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite/
+CATEGORIES:Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:16b598ac2a71746bd979@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270301
+SUMMARY:Stage Kumité / Kata (date à confirmer)
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
+ /sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite-kata-date-a-c
+ onfirmer/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kumite-kat
+ a-date-a-confirmer/
+CATEGORIES:Stage
+END:VEVENT
+BEGIN:VEVENT
+UID:ff9890ce7a95f5f0174e@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270510
+SUMMARY:Stage Kata / Kumité en Franche-Comté
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Stage · Régional (Bourgogne-Franche-Comté)\nFiche : https:/
+ /sites.ffkarate.fr/bourgognefranchecomte/event/stage-kata-kumite-en-franc
+ he-comte/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/stage-kata-kumit
+ e-en-franche-comte/
+CATEGORIES:Stage
+END:VEVENT
+END:VCALENDAR

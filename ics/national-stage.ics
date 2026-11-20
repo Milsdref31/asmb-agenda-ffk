@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASMB Karate Belfort//Agenda FFK//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stages FFK national (ASMB Karaté)
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:7ac95f44788cc93a9c10@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Stage national tous grades zone nord
+LOCATION:Espace Suzanne REGNIER - Baisieux (59)
+DESCRIPTION:Stage · National\nFiche : https://www.ffkarate.fr/calendrier/
+ stage-national-tous-grades-zone-nord/
+URL:https://www.ffkarate.fr/calendrier/stage-national-tous-grades-zone-nor
+ d/
+CATEGORIES:Stage
+END:VEVENT
+END:VCALENDAR

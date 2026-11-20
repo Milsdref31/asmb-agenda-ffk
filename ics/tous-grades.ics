@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASMB Karate Belfort//Agenda FFK//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Grades FFK (ASMB Karaté)
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:918878f7df7ca5dd89e5@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Passage de grade de 6ème dan +50 ans Zone Nord
+LOCATION:Gymnase de la Vanne - Montrouge (92)
+DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
+ /passage-de-grade-de-6eme-dan-50-ans-zone-nord-2/
+URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
+ -zone-nord-2/
+CATEGORIES:Grades
+END:VEVENT
+BEGIN:VEVENT
+UID:11c12b2064fbf25ed772@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Passage de grade de 6ème dan +50 ans Zone Sud
+LOCATION:Centre National d'Entrainement - CASTELNAU-LE-LEZ (34)
+DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
+ /passage-de-grade-de-6eme-dan-50-ans-zone-sud-2/
+URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
+ -zone-sud-2/
+CATEGORIES:Grades
+END:VEVENT
+BEGIN:VEVENT
+UID:b2fb686ed24523bea3ae@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Passage de grade 5 DAN en Franche-Comté
+DESCRIPTION:Grades · Régional (Bourgogne-Franche-Comté)\nFiche : https:
+ //sites.ffkarate.fr/bourgognefranchecomte/event/passage-de-grade-5-dan-en
+ -franche-comte/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/passage-de-grade
+ -5-dan-en-franche-comte/
+CATEGORIES:Grades
+END:VEVENT
+BEGIN:VEVENT
+UID:0776d72177c7267c7c1b@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Passage de grade de 7ème dan
+LOCATION:Institut National du Judo - Paris (75)
+DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
+ /passage-de-grade-de-7eme-dan/
+URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-7eme-dan/
+CATEGORIES:Grades
+END:VEVENT
+BEGIN:VEVENT
+UID:9168ada02b714315b2a5@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270307T083000
+DTEND:20270307T113000
+SUMMARY:Passage de Grades 2ème à 4ème dan
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Grades · Départemental (Territoire de Belfort)\nFiche : http
+ s://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-3/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-
+ 3/
+CATEGORIES:Grades
+END:VEVENT
+BEGIN:VEVENT
+UID:ab396ab846205b9fee84@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270606T081100
+DTEND:20270606T113000
+SUMMARY:Passage de grades 2éme à 4ème dan
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Grades · Départemental (Territoire de Belfort)\nFiche : http
+ s://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-2eme-a-
+ 4eme-dan/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/passage-de-grades-
+ 2eme-a-4eme-dan/
+CATEGORIES:Grades
+END:VEVENT
+BEGIN:VEVENT
+UID:1f6a94427af909845476@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270612
+SUMMARY:Passage de grade de 6ème dan -50 ans Zone Sud
+DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
+ /passage-de-grade-de-6eme-dan-50-ans-zone-sud/
+URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
+ -zone-sud/
+CATEGORIES:Grades
+END:VEVENT
+BEGIN:VEVENT
+UID:316f28a105d7cd122af8@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:Passage de grade de 6ème dan -50 ans Zone Nord
+DESCRIPTION:Grades · National\nFiche : https://www.ffkarate.fr/calendrier
+ /passage-de-grade-de-6eme-dan-50-ans-zone-nord/
+URL:https://www.ffkarate.fr/calendrier/passage-de-grade-de-6eme-dan-50-ans
+ -zone-nord/
+CATEGORIES:Grades
+END:VEVENT
+BEGIN:VEVENT
+UID:6664edfbc4b5ee06bcd0@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270619T080000
+DTEND:20270619T140000
+SUMMARY:Passage de Grade 5 DAN
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Grades · Régional (Bourgogne-Franche-Comté)\nFiche : https:
+ //sites.ffkarate.fr/bourgognefranchecomte/event/passage-de-grade-5-dan-2/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/passage-de-grade
+ -5-dan-2/
+CATEGORIES:Grades
+END:VEVENT
+END:VCALENDAR

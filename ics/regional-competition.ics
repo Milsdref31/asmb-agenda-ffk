@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASMB Karate Belfort//Agenda FFK//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Compétitions FFK régional (ASMB Karaté)
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:bcc4855edeeccd7d2a9d@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Coupe combat PB bourg franche comte
+LOCATION:Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21)
+DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche : 
+ https://sites.ffkarate.fr/bourgognefranchecomte/event/coupe-combat-pb-bou
+ rg-franche-comte-2/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/coupe-combat-pb-
+ bourg-franche-comte-2/
+CATEGORIES:Compétition
+END:VEVENT
+BEGIN:VEVENT
+UID:c5bc80a056abcb53a890@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Championnat combat BFC MCJS
+LOCATION:Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21)
+DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche : 
+ https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-combat-
+ bfc-mcjs/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-comb
+ at-bfc-mcjs/
+CATEGORIES:Compétition
+END:VEVENT
+BEGIN:VEVENT
+UID:abfb81cae5f8a7943666@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Championnat combat BFC equipe
+LOCATION:Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21)
+DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche : 
+ https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-combat-
+ bfc-equipe/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-comb
+ at-bfc-equipe/
+CATEGORIES:Compétition
+END:VEVENT
+BEGIN:VEVENT
+UID:ea31df989f0c16561e6e@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Championnat combat BFC veterans
+LOCATION:Dojo Alain le Hetet - Chevigny-Saint-Sauveur (21)
+DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche : 
+ https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-combat-
+ bfc-veterans/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/championnat-comb
+ at-bfc-veterans/
+CATEGORIES:Compétition
+END:VEVENT
+BEGIN:VEVENT
+UID:a4677a35378d2f5daab3@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:OPEN Interrégional Contact
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche : 
+ https://sites.ffkarate.fr/bourgognefranchecomte/event/open-interregional-
+ contact/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/open-interregion
+ al-contact/
+CATEGORIES:Compétition
+END:VEVENT
+BEGIN:VEVENT
+UID:e70ff450ca86251cd674@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:Séminaire LR / OPEN PB
+LOCATION:Dojo Alain le Hetet rue Sacha Distel 21800 Chevigny Saint Sauveur
+DESCRIPTION:Compétition · Régional (Bourgogne-Franche-Comté)\nFiche : 
+ https://sites.ffkarate.fr/bourgognefranchecomte/event/seminaire-lr-open-p
+ b/
+URL:https://sites.ffkarate.fr/bourgognefranchecomte/event/seminaire-lr-ope
+ n-pb/
+CATEGORIES:Compétition
+END:VEVENT
+END:VCALENDAR

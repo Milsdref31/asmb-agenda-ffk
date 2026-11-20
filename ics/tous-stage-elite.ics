@@ -1,0 +1,108 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASMB Karate Belfort//Agenda FFK//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stages élite FFK (ASMB Karaté)
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:74aae37b6754eda21c3c@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20261206T083000
+DTEND:20261206T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 14/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -14/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:4c0e1159db5b718a6a3d@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270110T083000
+DTEND:20270110T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 15/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -15/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:19784f98e821d191c1f8@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270207T083000
+DTEND:20270207T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 16/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -16/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:3878c2ca02678112d847@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270314T083000
+DTEND:20270314T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 17/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -17/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:479f028e6ba8da18d442@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270418T083000
+DTEND:20270418T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 18/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -18/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:dc20fe0bf17989f3a6e6@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270509T083000
+DTEND:20270509T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 19/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -19/
+CATEGORIES:Stage élite
+END:VEVENT
+BEGIN:VEVENT
+UID:88d8b182976ea6246d30@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270613T083000
+DTEND:20270613T113000
+SUMMARY:Entrainement élite
+LOCATION:Dojo Serge Merlet rue de Londres Belfort
+DESCRIPTION:Stage élite · Départemental (Territoire de Belfort)\nFiche 
+ : https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite-
+ 20/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/entrainement-elite
+ -20/
+CATEGORIES:Stage élite
+END:VEVENT
+END:VCALENDAR

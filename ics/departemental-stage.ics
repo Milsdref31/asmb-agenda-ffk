@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ASMB Karate Belfort//Agenda FFK//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stages FFK départemental (ASMB Karaté)
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:f8763f61cb61551b4395@asmb-agenda-ffk
+DTSTAMP:20261120T092816Z
+DTSTART:20270213T140000
+DTEND:20270213T180000
+SUMMARY:Stage passage de grades
+LOCATION:Gymnase Diderot rue de Zaporodjie 90000 Belfort
+DESCRIPTION:Stage · Départemental (Territoire de Belfort)\nFiche : https
+ ://sites.ffkarate.fr/territoiredebelfort/event/stage-passage-de-grades/
+URL:https://sites.ffkarate.fr/territoiredebelfort/event/stage-passage-de-g
+ rades/
+CATEGORIES:Stage
+END:VEVENT
+END:VCALENDAR
