@@ -35,3 +35,9 @@ Pourquoi ici et pas sur le site : l'hébergement Free du club n'a pas le droit d
 
 Si la FFK change ses pages et que l'agenda se vide, c'est `ffk_lire_page()` dans `ffk.php` qu'il faut adapter.
 Essai sur son ordinateur : `php robot.php` (PHP 5.6 à 8.x, extensions curl, dom, mbstring).
+
+## Calendrier scolaire (suivi des jeunes)
+
+`vacances.php` lit chaque mois le calendrier scolaire officiel de la zone A (académie de Besançon, donc Territoire de Belfort)
+sur data.education.gouv.fr et écrit `vacances.json`. Le suivi des jeunes du site s'en sert pour ses périodes
+(de la reprise des cours jusqu'aux vacances suivantes). Si la source ne répond pas, le fichier précédent est gardé.
