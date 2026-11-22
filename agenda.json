@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "majLe": "2026-11-20T09:31:29Z",
+    "majLe": "2026-11-22T20:07:11Z",
     "sources": {
         "departemental": {
             "ok": true,
@@ -16,7 +16,7 @@
         },
         "national": {
             "ok": true,
-            "nb": 65,
+            "nb": 64,
             "pages": 0,
             "erreur": ""
         }
@@ -36,16 +36,6 @@
             "heures": "",
             "lieu": "Hangzhou (Chine)",
             "url": "https://www.ffkarate.fr/calendrier/karate-world-cup/"
-        },
-        {
-            "niveau": "national",
-            "type": "formation",
-            "titre": "Développer la posture du coach en compétition",
-            "debut": "2026-11-21",
-            "fin": "2026-11-21",
-            "heures": "",
-            "lieu": "Fédération Française de Karaté - Montrouge (92)",
-            "url": "https://www.ffkarate.fr/calendrier/formation-continue-developper-la-posture-du-coach-en-competition-module-20/"
         },
         {
             "niveau": "national",
@@ -324,7 +314,7 @@
             "debut": "2027-01-30",
             "fin": "2027-01-31",
             "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
+            "lieu": "Val de Marne (94)",
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-kyokushinkai-combat-kata/"
         },
         {
@@ -484,7 +474,7 @@
             "debut": "2027-03-06",
             "fin": "2027-03-06",
             "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
+            "lieu": "Val de Marne (94)",
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-combine-combat-kata-ffk/"
         },
         {
@@ -514,7 +504,7 @@
             "debut": "2027-03-13",
             "fin": "2027-03-14",
             "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
+            "lieu": "Palais des sports - Adge - Agde (34)",
             "url": "https://www.ffkarate.fr/calendrier/championnat-de-france-universitaire-2/"
         },
         {
@@ -574,7 +564,7 @@
             "debut": "2027-04-03",
             "fin": "2027-04-03",
             "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
+            "lieu": "Val de Marne (94)",
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-kobudo-traditionnel-7/"
         },
         {
@@ -614,7 +604,7 @@
             "debut": "2027-04-17",
             "fin": "2027-04-18",
             "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
+            "lieu": "Palais des sports de Thiais (94)",
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-combat-cadets-espoirs/"
         },
         {
@@ -654,7 +644,7 @@
             "debut": "2027-05-01",
             "fin": "2027-05-02",
             "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
+            "lieu": "Institut National du Judo (INJ) - Paris (75)",
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-combat-seniors/"
         },
         {
@@ -774,7 +764,7 @@
             "debut": "2027-05-30",
             "fin": "2027-05-30",
             "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
+            "lieu": "Palais des sports de Béziers",
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-combat-kata-zone-sud-minimes-ind/"
         },
         {
@@ -894,7 +884,7 @@
             "debut": "2027-06-19",
             "fin": "2027-06-20",
             "heures": "",
-            "lieu": "-- En attente de confirmation de la salle --",
+            "lieu": "Stadium Vélodrome de Bordeaux Lac",
             "url": "https://www.ffkarate.fr/calendrier/coupe-de-france-des-corporations-combats-par-equipes/"
         },
         {

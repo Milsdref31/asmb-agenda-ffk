@@ -1,0 +1,89 @@
+{
+    "version": 1,
+    "majLe": "2026-11-22T20:07:12Z",
+    "zone": "A",
+    "academie": "Besançon",
+    "source": "data.education.gouv.fr, jeu « fr-en-calendrier-scolaire »",
+    "vacances": [
+        {
+            "nom": "Été",
+            "debut": "2025-07-05",
+            "reprise": "2025-09-01"
+        },
+        {
+            "nom": "Toussaint",
+            "debut": "2025-10-18",
+            "reprise": "2025-11-03"
+        },
+        {
+            "nom": "Noël",
+            "debut": "2025-12-20",
+            "reprise": "2026-01-05"
+        },
+        {
+            "nom": "Hiver",
+            "debut": "2026-02-07",
+            "reprise": "2026-02-23"
+        },
+        {
+            "nom": "Printemps",
+            "debut": "2026-04-04",
+            "reprise": "2026-04-20"
+        },
+        {
+            "nom": "Été",
+            "debut": "2026-07-04",
+            "reprise": "2026-09-01"
+        },
+        {
+            "nom": "Toussaint",
+            "debut": "2026-10-17",
+            "reprise": "2026-11-02"
+        },
+        {
+            "nom": "Noël",
+            "debut": "2026-12-19",
+            "reprise": "2027-01-04"
+        },
+        {
+            "nom": "Hiver",
+            "debut": "2027-02-13",
+            "reprise": "2027-03-01"
+        },
+        {
+            "nom": "Printemps",
+            "debut": "2027-04-10",
+            "reprise": "2027-04-26"
+        },
+        {
+            "nom": "Été",
+            "debut": "2027-07-03",
+            "reprise": "2027-09-02"
+        },
+        {
+            "nom": "Toussaint",
+            "debut": "2027-10-23",
+            "reprise": "2027-11-08"
+        },
+        {
+            "nom": "Noël",
+            "debut": "2027-12-18",
+            "reprise": "2028-01-03"
+        },
+        {
+            "nom": "Hiver",
+            "debut": "2028-02-19",
+            "reprise": "2028-03-06"
+        },
+        {
+            "nom": "Printemps",
+            "debut": "2028-04-22",
+            "reprise": "2028-05-09"
+        },
+        {
+            "nom": "Été",
+            "debut": "2028-07-04",
+            "reprise": null
+        }
+    ]
+}
